@@ -1,0 +1,13 @@
+<section class="form">
+  <h1 class="title2">Iniciar Sesión</h1>
+  <form class="forms" onsubmit=" event.preventDefault(); uploadFormData(); goToLanding(); placeLoggedInHeader()">
+    <p><input type="text" name="username" placeholder="Usuario" required></p>
+    <p>
+      <input type="password" name="password" class="password" placeholder="Contraseña" required>
+      <button type="button" class="toggleButton" onclick="togglePasswordVisibility('.forms')">Mostrar</button>
+    </p>
+    <p><input type="submit" value="Iniciar Sesion" ></p>
+  </form>
+</section>
+
+

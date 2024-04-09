@@ -1,0 +1,122 @@
+/* Estilos existentes */
+
+:root {
+  --bg-color: #474e52;
+  --white-color: #fff;
+  --main-color: #0f0;
+  --buttons-bg-color: #928C99;
+  --header-color: #24282B;
+}
+
+.title2 {
+  color: #0f0;
+  margin-bottom: 0.75em;
+  font-size: 4em;
+  text-align: center;
+}
+
+.forms {
+  text-align: center;
+  width: 300px; /* Ancho específico para el formulario */
+  margin: auto; /* Centra el formulario en la página */
+}
+
+.forms > p {
+  position: relative; /* Establece una posición relativa para los elementos dentro de <p> */
+  display: flex;
+  flex-direction: row;
+  align-items: center; /* Alinea los elementos al inicio */
+  min-height: 50px; /* Altura mínima para contener el campo de texto y el botón */
+}
+
+input[type=text], input[type=email], input[type=password], input[type=submit] {
+  color: #fff;
+  background-color: #928C99;
+  border: 1px solid #0f0;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 0.75em;
+}
+
+input[type=text], input[type=email], input[type=password] {
+  width: calc(100% - 22px); /* Ajusta el ancho para tener en cuenta el relleno y el borde */
+}
+
+input[type=submit] {
+  background-color: #0f0;
+  width: 100%; /* Asegura que el botón "Iniciar Sesión" ocupe el ancho completo */
+  margin-top: 10px; /* Añade un margen superior para separarlo del campo de contraseña */
+}
+
+.forms > p > button {
+  color: #fff;
+  background-color: #0f0;
+  padding: 10px;
+  margin: 5px;
+  border: none;
+  cursor: pointer;
+  border-radius: 0.75em;
+}
+
+/* Ajustes para el botón "Mostrar" */
+.forms > p > input[type="password"] {
+  width: calc(100% - 80px); /* Ajusta el ancho para dejar espacio para el botón "Mostrar" */
+}
+
+.forms > p > button#toggleButton {
+  position: absolute; /* Posiciona el botón "Mostrar" de forma absoluta */
+  right: 10px; /* Alinea el botón más a la derecha del campo de contraseña */
+  top: 5px; /* Alinea el botón a la misma altura del campo de contraseña */
+  height: 38px; /* Ajusta la altura para alinear con el campo de contraseña */
+  padding: 10px 15px; /* Ajusta el relleno según sea necesario */
+  margin: 0; /* Elimina el margen para alinear correctamente con el campo de contraseña */
+}
+/* Media query para pantallas grandes */
+@media (max-width: 1440px) {
+  .title2 {
+    font-size: 3.5em; /* Ligeramente más pequeño para pantallas grandes */
+    margin-bottom: 0.5em; /* Menos espacio debajo del título */
+  }
+
+  .forms {
+    width: 80%; /* El formulario ocupa el 80% del ancho en pantallas grandes */
+    max-width: 500px; /* Ancho máximo para el formulario */
+  }
+
+  input[type=text], input[type=email], input[type=password] {
+    width: calc(100% - 20px); /* Ajusta el ancho para pantallas grandes */
+  }
+
+  .forms > p > input[type="password"] {
+    width: calc(100% - 70px); /* Ajusta el ancho para dejar espacio para el botón "Mostrar" */
+  }
+
+  .forms > p > button#toggleButton {
+    right: 15px; /* Alinea el botón "Mostrar" un poco más a la derecha */
+    padding: 10px 10px; /* Ajusta el relleno para pantallas grandes */
+  }
+}
+
+/* Media query para dispositivos móviles */
+@media (max-width: 360px) {
+  .forms {
+    width: 100%; /* El formulario ocupa el ancho completo en dispositivos móviles */
+    padding: 0 20px; /* Añade relleno a los lados para no tocar los bordes de la pantalla */
+  }
+
+  .title2 {
+    font-size: 2em; /* Reduce el tamaño del título para dispositivos móviles */
+  }
+
+  input[type=text], input[type=email], input[type=password] {
+    width: calc(100% - 22px); /* Ajusta el ancho para dispositivos móviles */
+  }
+
+  .forms > p > input[type="password"] {
+    width: calc(100% - 90px); /* Deja espacio para el botón "Mostrar" en dispositivos móviles */
+  }
+
+  .forms > p > button#toggleButton {
+    right: 20px; /* Alinea el botón "Mostrar" más a la derecha en dispositivos móviles */
+  }
+}
