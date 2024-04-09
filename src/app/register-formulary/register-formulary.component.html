@@ -1,1 +1,18 @@
-<p>register-formulary works!</p>
+<section class="form">
+  <h1 class="title2">Registrate en AllSports</h1>
+  <form class="forms" id="registerForm" onsubmit="event.preventDefault(); verifyPasswords(); uploadFormData(); goToLanding(); placeLoggedInHeader()">
+    <p><input type="text" name="name" placeholder="Nombre" required pattern="[A-Za-zÀ-ÿ\s]{1,40}" title="Solo letras y espacios, hasta 40 caracteres"></p>
+    <p><input type="text" name="surname" placeholder="Apellidos" required pattern="[A-Za-zÀ-ÿ\s]{1,80}" title="Solo letras y espacios, hasta 80 caracteres"></p>
+    <p><input type="text" name="username" placeholder="Nombre de usuario" required pattern="[A-Za-z0-9_]{1,20}" title="Letras, números y guiones bajos, hasta 20 caracteres"></p>
+    <p><input type="email" name="email" placeholder="Email" required></p>
+    <p class="show1">
+      <input type="password" class="password" name="password" placeholder="Contraseña" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[\W]).{8,}" title="Debe contener al menos 8 caracteres, incluyendo un número, una mayúscula, una minúscula y un carácter especial.">
+      <button type="button" class="toggleButton" onclick="togglePasswordVisibility('.show1')">Mostrar</button>
+    </p>
+    <p class="show2">
+      <input type="password" class="password" name="re-password" placeholder="Repetir contraseña" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[\W]).{8,}" title="Debe contener al menos 8 caracteres, incluyendo un número, una mayúscula, una minúscula y un carácter especial.">
+      <button type="button" class="toggleButton" onclick="togglePasswordVisibility('.show2')">Mostrar</button>
+    </p>
+    <p><input type="submit" value="Registrarse"></p>
+  </form>
+</section>
