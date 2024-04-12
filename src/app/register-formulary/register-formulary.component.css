@@ -109,4 +109,12 @@ input[type=submit] {
   .forms > p > button#toggleButton {
     right: 20px; /* Alinea el botón "Mostrar" más a la derecha en dispositivos móviles */
   }
+  /* Estilos existentes... */
+
+  .error {
+    color: #ff0000; /* Color rojo para los mensajes de error */
+    font-size: 0.8em; /* Tamaño de fuente más pequeño para los mensajes de error */
+    margin-top: 5px; /* Espacio arriba del mensaje de error */
+  }
+
 }

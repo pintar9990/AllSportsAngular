@@ -1,18 +1,52 @@
 <section class="form">
   <h1 class="title2">Registrate en AllSports</h1>
-  <form class="forms" id="registerForm" onsubmit="event.preventDefault(); verifyPasswords(); uploadFormData(); goToLanding(); placeLoggedInHeader()">
-    <p><input type="text" name="name" placeholder="Nombre" required pattern="[A-Za-zÀ-ÿ\s]{1,40}" title="Solo letras y espacios, hasta 40 caracteres"></p>
-    <p><input type="text" name="surname" placeholder="Apellidos" required pattern="[A-Za-zÀ-ÿ\s]{1,80}" title="Solo letras y espacios, hasta 80 caracteres"></p>
-    <p><input type="text" name="username" placeholder="Nombre de usuario" required pattern="[A-Za-z0-9_]{1,20}" title="Letras, números y guiones bajos, hasta 20 caracteres"></p>
-    <p><input type="email" name="email" placeholder="Email" required></p>
+  <form class="forms" id="registerForm" [formGroup]="registerForm" (ngSubmit)="register()">
+    <p>
+      <input type="text" formControlName="name" placeholder="Nombre">
+      <span *ngIf="registerForm.get('name')?.errors?.['required'] && registerForm.get('name')?.touched" class="error">
+        El nombre es requerido.
+      </span>
+    </p>
+    <p>
+      <input type="text" formControlName="surname" placeholder="Apellidos">
+      <span *ngIf="registerForm.get('surname')?.errors?.['required'] && registerForm.get('surname')?.touched" class="error">
+        Los apellidos son requeridos.
+      </span>
+    </p>
+    <p>
+      <input type="text" formControlName="username" placeholder="Nombre de usuario">
+      <span *ngIf="registerForm.get('username')?.errors?.['required'] && registerForm.get('username')?.touched" class="error">
+        El nombre de usuario es requerido.
+      </span>
+    </p>
+    <p>
+      <input type="email" formControlName="email" placeholder="Email">
+      <span *ngIf="registerForm.get('email')?.errors?.['required'] && registerForm.get('email')?.touched" class="error">
+        El email es requerido.
+      </span>
+      <span *ngIf="registerForm.get('email')?.errors?.['email'] && registerForm.get('email')?.touched" class="error">
+        Por favor, introduce un email válido.
+      </span>
+    </p>
     <p class="show1">
-      <input type="password" class="password" name="password" placeholder="Contraseña" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[\W]).{8,}" title="Debe contener al menos 8 caracteres, incluyendo un número, una mayúscula, una minúscula y un carácter especial.">
-      <button type="button" class="toggleButton" onclick="togglePasswordVisibility('.show1')">Mostrar</button>
+      <input [type]="hidePassword ? 'password' : 'text'" formControlName="password" class="password" placeholder="Contraseña">
+      <button type="button" class="toggleButton" (click)="togglePasswordVisibility()">Mostrar</button>
+      <span *ngIf="registerForm.get('password')?.errors?.['required'] && registerForm.get('password')?.touched" class="error">
+        La contraseña es requerida.
+      </span>
+      <span *ngIf="registerForm.get('password')?.errors?.['pattern'] && registerForm.get('password')?.touched" class="error">
+        La contraseña debe tener al menos 8 caracteres, incluyendo un número, una mayúscula, una minúscula y un carácter especial.
+      </span>
     </p>
     <p class="show2">
-      <input type="password" class="password" name="re-password" placeholder="Repetir contraseña" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[\W]).{8,}" title="Debe contener al menos 8 caracteres, incluyendo un número, una mayúscula, una minúscula y un carácter especial.">
-      <button type="button" class="toggleButton" onclick="togglePasswordVisibility('.show2')">Mostrar</button>
+      <input [type]="hidePassword ? 'password' : 'text'" formControlName="rePassword" class="password" placeholder="Repetir contraseña">
+      <button type="button" class="toggleButton" (click)="togglePasswordVisibility()">Mostrar</button>
+      <span *ngIf="registerForm.get('rePassword')?.errors?.['required'] && registerForm.get('rePassword')?.touched" class="error">
+        Debes repetir la contraseña.
+      </span>
     </p>
-    <p><input type="submit" value="Registrarse"></p>
+    <p>
+      <input type="submit" value="Registrarse">
+    </p>
   </form>
 </section>
