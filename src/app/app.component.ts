@@ -1,11 +1,9 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import {ReactiveFormsModule} from '@angular/forms';
-import {LandingComponent} from "./landing/landing.component";
-import {HeaderComponent} from "./header/header.component";
-import {LoginFormularyComponent} from "./login-formulary/login-formulary.component";
-import {RegisterFormularyComponent} from "./register-formulary/register-formulary.component";
-import { CommonModule } from '@angular/common';
+import {LandingComponent} from "./pages/landing/landing.component";
+import {HeaderComponent} from "./components/header/header.component";
+import {LoginFormularyComponent} from "./pages/login-formulary/login-formulary.component";
+import {RegisterFormularyComponent} from "./pages/register-formulary/register-formulary.component";
 
 @Component({
   selector: 'app-root',
@@ -14,9 +12,7 @@ import { CommonModule } from '@angular/common';
     LandingComponent,
     HeaderComponent,
     LoginFormularyComponent,
-    RegisterFormularyComponent,
-    ReactiveFormsModule,
-    CommonModule
+    RegisterFormularyComponent
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
