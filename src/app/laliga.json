@@ -1,0 +1,1368 @@
+{
+  "name": "La Liga EA Sports",
+  "logo": "/images/leagues/logo/laliga.png",
+  "art": "/images/leagues/arts/laliga.png",
+  "standings": "/images/leagues/standings/standingsLaliga.png",
+  "teams": [
+    {
+      "name": "FC Barcelona",
+      "logo": "/images/teams/laliga/barcelona.png",
+      "goalkeepers": [
+        {
+          "name": "Ter Stegen",
+          "jersey number": "1"
+        },
+        {
+          "name": "Iñaki Peña",
+          "jersey number": "13"
+        }
+      ],
+      "defenders": [
+        {
+          "name": "Cancelo",
+          "jersey number": "2"
+        },
+        {
+          "name": "Araujo",
+          "jersey number": "4"
+        },
+        {
+          "name": "Koundé",
+          "jersey number": "23"
+        },
+        {
+          "name": "Balde",
+          "jersey number": "3"
+        }
+      ],
+      "midfielders": [
+        {
+          "name": "Pedri",
+          "jersey number": "8"
+        },
+        {
+          "name": "De Jong",
+          "jersey number": "21"
+        },
+        {
+          "name": "Gündogan",
+          "jersey number": "22"
+        },
+        {
+          "name": "Gavi",
+          "jersey number": "6"
+        }
+      ],
+      "attackers": [
+        {
+          "name": "Lewandowski",
+          "jersey number": "9"
+        },
+        {
+          "name": "Raphinha",
+          "jersey number": "11"
+        },
+        {
+          "name": "Félix",
+          "jersey number": "14"
+        },
+        {
+          "name": "F.Torres",
+          "jersey number": "7"
+        }
+      ]
+    },
+    {
+      "name": "Real Madrid",
+      "logo": "/images/teams/laliga/madrid.png",
+      "goalkeepers": [
+        {
+          "name": "Courtois",
+          "jersey number": "1"
+        },
+        {
+          "name": "Lunin",
+          "jersey number": "13"
+        }
+      ],
+      "defenders": [
+        {
+          "name": "Carvajal",
+          "jersey number": "2"
+        },
+        {
+          "name": "Alaba",
+          "jersey number": "4"
+        },
+        {
+          "name": "Rüdiger",
+          "jersey number": "22"
+        },
+        {
+          "name": "Nacho",
+          "jersey number": "6"
+        }
+      ],
+      "midfielders": [
+        {
+          "name": "Modric",
+          "jersey number": "10"
+        },
+        {
+          "name": "Kroos",
+          "jersey number": "8"
+        },
+        {
+          "name": "F.Valverde",
+          "jersey number": "15"
+        },
+        {
+          "name": "Thouaméni",
+          "jersey number": "18"
+        }
+      ],
+      "attackers": [
+        {
+          "name": "Vinicius",
+          "jersey number": "7"
+        },
+        {
+          "name": "Rodrygo",
+          "jersey number": "11"
+        },
+        {
+          "name": "Bellingham",
+          "jersey number": "5"
+        },
+        {
+          "name": "Joselu",
+          "jersey number": "14"
+        }
+      ]
+    },
+    {
+      "name": "Atlético Madrid",
+      "logo": "/images/teams/laliga/atletico.png",
+      "goalkeepers": [
+        {
+          "name": "Oblak",
+          "jersey number": "13"
+        },
+        {
+          "name": "Moldovan",
+          "jersey number": "1"
+        }
+      ],
+      "defenders": [
+        {
+          "name": "Witsel",
+          "jersey number": "20"
+        },
+        {
+          "name": "J.M.Giménez",
+          "jersey number": "2"
+        },
+        {
+          "name": "Hermoso",
+          "jersey number": "22"
+        },
+        {
+          "name": "Reinildo",
+          "jersey number": "23"
+        }
+      ],
+      "midfielders": [
+        {
+          "name": "De Paul",
+          "jersey number": "5"
+        },
+        {
+          "name": "Llorente",
+          "jersey number": "14"
+        },
+        {
+          "name": "Koke",
+          "jersey number": "6"
+        },
+        {
+          "name": "Saul",
+          "jersey number": "8"
+        }
+      ],
+      "attackers": [
+        {
+          "name": "Morata",
+          "jersey number": "19"
+        },
+        {
+          "name": "Griezman",
+          "jersey number": "7"
+        },
+        {
+          "name": "Correa",
+          "jersey number": "10"
+        },
+        {
+          "name": "Depay",
+          "jersey number": "9"
+        }
+      ]
+    },
+    {
+      "name": "Girona",
+      "logo": "/images/teams/laliga/girona.png",
+      "goalkeepers": [
+        {
+          "name": "Gazzaniga",
+          "jersey number": "13"
+        },
+        {
+          "name": "J. Carlos",
+          "jersey number": "1"
+        }
+      ],
+      "defenders": [
+        {
+          "name": "M.Gutiérrez",
+          "jersey number": "3"
+        },
+        {
+          "name": "Couto",
+          "jersey number": "20"
+        },
+        {
+          "name": "Blind",
+          "jersey number": "17"
+        },
+        {
+          "name": "E.García",
+          "jersey number": "25"
+        }
+      ],
+      "midfielders": [
+        {
+          "name": "I.Martin",
+          "jersey number": "23"
+        },
+        {
+          "name": "A.García",
+          "jersey number": "14"
+        },
+        {
+          "name": "Portu",
+          "jersey number": "24"
+        },
+        {
+          "name": "P.Toore",
+          "jersey number": "18"
+        }
+      ],
+      "attackers": [
+        {
+          "name": "Sávio",
+          "jersey number": "16"
+        },
+        {
+          "name": "Stuani",
+          "jersey number": "7"
+        },
+        {
+          "name": "Dovbyk",
+          "jersey number": "9"
+        },
+        {
+          "name": "Tsygankov",
+          "jersey number": "8"
+        }
+      ]
+    },
+    {
+      "name": "Athletic Club",
+      "logo": "/images/teams/laliga/athletic.png",
+      "goalkeepers": [
+        {
+          "name": "U.Simón",
+          "jersey number": "1"
+        },
+        {
+          "name": "Aguirrezabalaga",
+          "jersey number": "13"
+        }
+      ],
+      "defenders": [
+        {
+          "name": "Paredes",
+          "jersey number": "4"
+        },
+        {
+          "name": "Vivian",
+          "jersey number": "3"
+        },
+        {
+          "name": "Y.Berchiche",
+          "jersey number": "17"
+        },
+        {
+          "name": "De Marcos",
+          "jersey number": "18"
+        }
+      ],
+      "midfielders": [
+        {
+          "name": "Sancet",
+          "jersey number": "8"
+        },
+        {
+          "name": "A.Berenguer",
+          "jersey number": "7"
+        },
+        {
+          "name": "De Galarreta",
+          "jersey number": "16"
+        },
+        {
+          "name": "U.Gómez",
+          "jersey number": "30"
+        }
+      ],
+      "attackers": [
+        {
+          "name": "N.Williams",
+          "jersey number": "11"
+        },
+        {
+          "name": "I.Williams",
+          "jersey number": "9"
+        },
+        {
+          "name": "Guruzeta",
+          "jersey number": "12"
+        },
+        {
+          "name": "Muniain",
+          "jersey number": "10"
+        }
+      ]
+    },
+    {
+      "name": "Real Sociedad",
+      "logo": "/images/teams/laliga/real-sociedad.png",
+      "goalkeepers": [
+        {
+          "name": "A.Remiro",
+          "jersey number": "1"
+        },
+        {
+          "name": "Marrero",
+          "jersey number": "13"
+        }
+      ],
+      "defenders": [
+        {
+          "name": "Traoré",
+          "jersey number": "18"
+        },
+        {
+          "name": "A.Muñoz",
+          "jersey number": "3"
+        },
+        {
+          "name": "J.Pacheco",
+          "jersey number": "20"
+        },
+        {
+          "name": "Elustondo",
+          "jersey number": "6"
+        }
+      ],
+      "midfielders": [
+        {
+          "name": "Zubimendi",
+          "jersey number": "4"
+        },
+        {
+          "name": "Zubeldia",
+          "jersey number": "5"
+        },
+        {
+          "name": "B.Méndez",
+          "jersey number": "23"
+        },
+        {
+          "name": "M.Merino",
+          "jersey number": "8"
+        }
+      ],
+      "attackers": [
+        {
+          "name": "Kubo",
+          "jersey number": "14"
+        },
+        {
+          "name": "Barrenetxea",
+          "jersey number": "7"
+        },
+        {
+          "name": "Sadiq",
+          "jersey number": "19"
+        },
+        {
+          "name": "B.Turrientes",
+          "jersey number": "22"
+        }
+      ]
+    },
+    {
+      "name": "Real Betis Balonpie",
+      "logo": "/images/teams/laliga/betis.png",
+      "goalkeepers": [
+        {
+          "name": "R.Silva",
+          "jersey number": "13"
+        },
+        {
+          "name": "C.Bravo",
+          "jersey number": "1"
+        }
+      ],
+      "defenders": [
+        {
+          "name": "Pezzella",
+          "jersey number": "6"
+        },
+        {
+          "name": "Bellerín",
+          "jersey number": "2"
+        },
+        {
+          "name": "J.Miranda",
+          "jersey number": "3"
+        },
+        {
+          "name": "Abner",
+          "jersey number": "20"
+        }
+      ],
+      "midfielders": [
+        {
+          "name": "M.Roca",
+          "jersey number": "21"
+        },
+        {
+          "name": "Isco",
+          "jersey number": "22"
+        },
+        {
+          "name": "G.Rodrigez",
+          "jersey number": "5"
+        },
+        {
+          "name": "Fekir",
+          "jersey number": "8"
+        }
+      ],
+      "attackers": [
+        {
+          "name": "A.Pérez",
+          "jersey number": "10"
+        },
+        {
+          "name": "W.José",
+          "jersey number": "12"
+        },
+        {
+          "name": "Abde",
+          "jersey number": "7"
+        },
+        {
+          "name": "C.Ávila",
+          "jersey number": "9"
+        }
+      ]
+    },
+    {
+      "name": "Sevilla FC",
+      "logo": "/images/teams/laliga/sevilla.png",
+      "goalkeepers": [
+        {
+          "name": "M.Dimitrovic",
+          "jersey number": "1"
+        },
+        {
+          "name": "O.Nyland",
+          "jersey number": "13"
+        }
+      ],
+      "defenders": [
+        {
+          "name": "A.Pedrosa",
+          "jersey number": "3"
+        },
+        {
+          "name": "S.Ramos",
+          "jersey number": "4"
+        },
+        {
+          "name": "L.Badé",
+          "jersey number": "22"
+        },
+        {
+          "name": "J.Navas",
+          "jersey number": "16"
+        }
+      ],
+      "midfielders": [
+        {
+          "name": "L.Ocampos",
+          "jersey number": "5"
+        },
+        {
+          "name": "D.Sow",
+          "jersey number": "18"
+        },
+        {
+          "name": "O.Torres",
+          "jersey number": "21"
+        },
+        {
+          "name": "J.Sanches",
+          "jersey number": "26"
+        }
+      ],
+      "attackers": [
+        {
+          "name": "En-Nesyri",
+          "jersey number": "15"
+        },
+        {
+          "name": "Suso",
+          "jersey number": "7"
+        },
+        {
+          "name": "Rafa Mir",
+          "jersey number": "9"
+        },
+        {
+          "name": "Lukebakio",
+          "jersey number": "11"
+        }
+      ]
+    },
+    {
+      "name": "Valencia CF",
+      "logo": "/images/teams/laliga/valencia.png",
+      "goalkeepers": [
+        {
+          "name": "Mamardashvili",
+          "jersey number": "25"
+        },
+        {
+          "name": "J.Doménech",
+          "jersey number": "1"
+        }
+      ],
+      "defenders": [
+        {
+          "name": "Mosquera",
+          "jersey number": "3"
+        },
+        {
+          "name": "T.Correia",
+          "jersey number": "12"
+        },
+        {
+          "name": "J.Gaya",
+          "jersey number": "14"
+        },
+        {
+          "name": "D.Foulquier",
+          "jersey number": "20"
+        }
+      ],
+      "midfielders": [
+        {
+          "name": "Pepelu",
+          "jersey number": "18"
+        },
+        {
+          "name": "H.Guillamon",
+          "jersey number": "6"
+        },
+        {
+          "name": "J.Guerra",
+          "jersey number": "8"
+        },
+        {
+          "name": "S.Amallah",
+          "jersey number": "19"
+        }
+      ],
+      "attackers": [
+        {
+          "name": "H.Duro",
+          "jersey number": "9"
+        },
+        {
+          "name": "D.Lopez",
+          "jersey number": "16"
+        },
+        {
+          "name": "F.Perez",
+          "jersey number": "23"
+        },
+        {
+          "name": "R.Yaremchuk",
+          "jersey number": "17"
+        }
+      ]
+    },
+    {
+      "name": "Villarreal FC",
+      "logo": "/images/teams/laliga/villareal.png",
+      "goalkeepers": [
+        {
+          "name": "F.Jörgensen",
+          "jersey number": "13"
+        },
+        {
+          "name": "Pepe Reina",
+          "jersey number": "1"
+        }
+      ],
+      "defenders": [
+        {
+          "name": "R.Albiol",
+          "jersey number": "3"
+        },
+        {
+          "name": "J.Cuenca",
+          "jersey number": "5"
+        },
+        {
+          "name": "A.Moreno",
+          "jersey number": "18"
+        },
+        {
+          "name": "J.Foyth",
+          "jersey number": "8"
+        }
+      ],
+      "midfielders": [
+        {
+          "name": "Parejo",
+          "jersey number": "10"
+        },
+        {
+          "name": "A.Baena",
+          "jersey number": "16"
+        },
+        {
+          "name": "S.Comesaña",
+          "jersey number": "4"
+        },
+        {
+          "name": "E.Capoue",
+          "jersey number": "6"
+        }
+      ],
+      "attackers": [
+        {
+          "name": "A.Sorloth",
+          "jersey number": "11"
+        },
+        {
+          "name": "G.Moreno",
+          "jersey number": "7"
+        },
+        {
+          "name": "Morales",
+          "jersey number": "15"
+        },
+        {
+          "name": "I.Akhomac",
+          "jersey number": "27"
+        }
+      ]
+    },
+    {
+      "name": "Getafe",
+      "logo": "/images/teams/laliga/getafe.png",
+      "goalkeepers": [
+        {
+          "name": "D.Soria",
+          "jersey number": "13"
+        },
+        {
+          "name": "D.Fuzato",
+          "jersey number": "1"
+        }
+      ],
+      "defenders": [
+        {
+          "name": "D.Rico",
+          "jersey number": "16"
+        },
+        {
+          "name": "D.Djene",
+          "jersey number": "2"
+        },
+        {
+          "name": "O.Alderete",
+          "jersey number": "15"
+        },
+        {
+          "name": "G.Alvarez",
+          "jersey number": "4"
+        }
+      ],
+      "midfielders": [
+        {
+          "name": "N.Maksimovic",
+          "jersey number": "20"
+        },
+        {
+          "name": "C.Aleña",
+          "jersey number": "11"
+        },
+        {
+          "name": "L.Milla",
+          "jersey number": "5"
+        },
+        {
+          "name": "O.Rodriguez",
+          "jersey number": "9"
+        }
+      ],
+      "attackers": [
+        {
+          "name": "B.Mayoral",
+          "jersey number": "19"
+        },
+        {
+          "name": "M.Greenwood",
+          "jersey number": "12"
+        },
+        {
+          "name": "J.Mata",
+          "jersey number": "7"
+        },
+        {
+          "name": "Latsa",
+          "jersey number": "14"
+        }
+      ]
+    },
+    {
+      "name": "UD Las Palmas",
+      "logo": "/images/teams/laliga/las-palmas.png",
+      "goalkeepers": [
+        {
+          "name": "A.Valles",
+          "jersey number": "13"
+        },
+        {
+          "name": "A.Escandell",
+          "jersey number": "1"
+        }
+      ],
+      "defenders": [
+        {
+          "name": "M.Marmol",
+          "jersey number": "15"
+        },
+        {
+          "name": "S.Cardona",
+          "jersey number": "3"
+        },
+        {
+          "name": "S.Coco",
+          "jersey number": "23"
+        },
+        {
+          "name": "A.Suarez",
+          "jersey number": "4"
+        }
+      ],
+      "midfielders": [
+        {
+          "name": "Kirian",
+          "jersey number": "20"
+        },
+        {
+          "name": "J.Muñoz",
+          "jersey number": "5"
+        },
+        {
+          "name": "A.Moleiro",
+          "jersey number": "10"
+        },
+        {
+          "name": "E.Loiodice",
+          "jersey number": "12"
+        }
+      ],
+      "attackers": [
+        {
+          "name": "Munir",
+          "jersey number": "17"
+        },
+        {
+          "name": "Sandro",
+          "jersey number": "9"
+        },
+        {
+          "name": "S.Kaba",
+          "jersey number": "16"
+        },
+        {
+          "name": "M.Cardona",
+          "jersey number": "19"
+        }
+      ]
+    },
+    {
+      "name": "Osasuna",
+      "logo": "/images/teams/laliga/osasuna.png",
+      "goalkeepers": [
+        {
+          "name": "S.Herrera",
+          "jersey number": "1"
+        },
+        {
+          "name": "A.Fernandez",
+          "jersey number": "13"
+        }
+      ],
+      "defenders": [
+        {
+          "name": "J.Areso",
+          "jersey number": "12"
+        },
+        {
+          "name": "D.Garcia",
+          "jersey number": "5"
+        },
+        {
+          "name": "A.Catena",
+          "jersey number": "24"
+        },
+        {
+          "name": "R.Mojica",
+          "jersey number": "22"
+        }
+      ],
+      "midfielders": [
+        {
+          "name": "J.Moncayola",
+          "jersey number": "7"
+        },
+        {
+          "name": "A.Oroz",
+          "jersey number": "10"
+        },
+        {
+          "name": "P.Ibañez",
+          "jersey number": "19"
+        },
+        {
+          "name": "L.Torro",
+          "jersey number": "6"
+        }
+      ],
+      "attackers": [
+        {
+          "name": "A.Budimir",
+          "jersey number": "17"
+        },
+        {
+          "name": "Raul Garcia",
+          "jersey number": "23"
+        },
+        {
+          "name": "Moi Gomez",
+          "jersey number": "16"
+        },
+        {
+          "name": "Ruben Garcia",
+          "jersey number": "14"
+        }
+      ]
+    },
+    {
+      "name": "Deportivo Alavés",
+      "logo": "/images/teams/laliga/alaves.png",
+      "goalkeepers": [
+        {
+          "name": "A.Sivera",
+          "jersey number": "1"
+        },
+        {
+          "name": "J.Owono",
+          "jersey number": "31"
+        }
+      ],
+      "defenders": [
+        {
+          "name": "A.Gorosabel",
+          "jersey number": "2"
+        },
+        {
+          "name": "R.Marin",
+          "jersey number": "16"
+        },
+        {
+          "name": "J.Lopez",
+          "jersey number": "27"
+        },
+        {
+          "name": "R.Duarte",
+          "jersey number": "3"
+        }
+      ],
+      "midfielders": [
+        {
+          "name": "J.Guridi",
+          "jersey number": "18"
+        },
+        {
+          "name": "A.Guevara",
+          "jersey number": "6"
+        },
+        {
+          "name": "A.Blanco",
+          "jersey number": "8"
+        },
+        {
+          "name": "C.Benavidez",
+          "jersey number": "23"
+        }
+      ],
+      "attackers": [
+        {
+          "name": "L.Rioja",
+          "jersey number": "11"
+        },
+        {
+          "name": "S.Omorodion",
+          "jersey number": "32"
+        },
+        {
+          "name": "K.Garcia",
+          "jersey number": "15"
+        },
+        {
+          "name": "A.Sola",
+          "jersey number": "7"
+        }
+      ]
+    },
+    {
+      "name": "Mallorca",
+      "logo": "/images/teams/laliga/mallorca.png",
+      "goalkeepers": [
+        {
+          "name": "P.Rajkovic",
+          "jersey number": "1"
+        },
+        {
+          "name": "I.Cuellar",
+          "jersey number": "25 "
+        }
+      ],
+      "defenders": [
+        {
+          "name": "G.Gonzalez",
+          "jersey number": "20"
+        },
+        {
+          "name": "J.Costa",
+          "jersey number": "11"
+        },
+        {
+          "name": "Lato",
+          "jersey number": "3"
+        },
+        {
+          "name": "M.Valjent",
+          "jersey number": "24"
+        }
+      ],
+      "midfielders": [
+        {
+          "name": "M.Morlanes",
+          "jersey number": "8"
+        },
+        {
+          "name": "D.Rodriguez",
+          "jersey number": "14"
+        },
+        {
+          "name": "S.Darder",
+          "jersey number": "10"
+        },
+        {
+          "name": "S.Costa",
+          "jersey number": "12"
+        }
+      ],
+      "attackers": [
+        {
+          "name": "V.Muriuqi",
+          "jersey number": "7"
+        },
+        {
+          "name": "C.Larin",
+          "jersey number": "17"
+        },
+        {
+          "name": "A.Prats",
+          "jersey number": "9"
+        },
+        {
+          "name": "J.Llabres",
+          "jersey number": "19"
+        }
+      ]
+    },
+    {
+      "name": "Rayo Vallecano",
+      "logo": "/images/teams/laliga/rayo.png",
+      "goalkeepers": [
+        {
+          "name": "S.Dimitrievski",
+          "jersey number": "1"
+        },
+        {
+          "name": "D.Cardenas",
+          "jersey number": "13"
+        }
+      ],
+      "defenders": [
+        {
+          "name": "F.Lejeune",
+          "jersey number": "24"
+        },
+        {
+          "name": "P.Espino",
+          "jersey number": "12"
+        },
+        {
+          "name": "I.Balliu",
+          "jersey number": "20"
+        },
+        {
+          "name": "Aridane",
+          "jersey number": "5"
+        }
+      ],
+      "midfielders": [
+        {
+          "name": "O.Valentin",
+          "jersey number": "23"
+        },
+        {
+          "name": "U.Lopez",
+          "jersey number": "17"
+        },
+        {
+          "name": "O.Trejo",
+          "jersey number": "8"
+        },
+        {
+          "name": "P.Ciss",
+          "jersey number": "21"
+        }
+      ],
+      "attackers": [
+        {
+          "name": "J.De Frutos",
+          "jersey number": "19"
+        },
+        {
+          "name": "Isi Palazon",
+          "jersey number": "7"
+        },
+        {
+          "name": "A.Garcia",
+          "jersey number": "18"
+        },
+        {
+          "name": "S.Camello",
+          "jersey number": "34"
+        }
+      ]
+    },
+    {
+      "name": "RC Celta",
+      "logo": "/images/teams/laliga/celta.png",
+      "goalkeepers": [
+        {
+          "name": "V.Guaita",
+          "jersey number": "25"
+        },
+        {
+          "name": "I.Villar",
+          "jersey number": "13"
+        }
+      ],
+      "defenders": [
+        {
+          "name": "O.Mingueza",
+          "jersey number": "3"
+        },
+        {
+          "name": "U.Nuñez",
+          "jersey number": "4"
+        },
+        {
+          "name": "C.Starfelt",
+          "jersey number": "2"
+        },
+        {
+          "name": "M.Sanchez",
+          "jersey number": "23"
+        }
+      ],
+      "midfielders": [
+        {
+          "name": "C.Dotor",
+          "jersey number": "6"
+        },
+        {
+          "name": "L.De La Torre",
+          "jersey number": "14"
+        },
+        {
+          "name": "F.Beltran",
+          "jersey number": "8"
+        },
+        {
+          "name": "R.Tapia",
+          "jersey number": "5"
+        }
+      ],
+      "attackers": [
+        {
+          "name": "J.Larsen",
+          "jersey number": "18"
+        },
+        {
+          "name": "I.Aspas",
+          "jersey number": "10"
+        },
+        {
+          "name": "J.Bamba",
+          "jersey number": "17"
+        },
+        {
+          "name": "A.Douvikas",
+          "jersey number": "12"
+        }
+      ]
+    },
+    {
+      "name": "Cadiz FC",
+      "logo": "/images/teams/laliga/cadiz.png",
+      "goalkeepers": [
+        {
+          "name": "C.Ledesma",
+          "jersey number": "1"
+        },
+        {
+          "name": "D.Gil",
+          "jersey number": "13"
+        }
+      ],
+      "defenders": [
+        {
+          "name": "Iza",
+          "jersey number": "20"
+        },
+        {
+          "name": "Fali",
+          "jersey number": "3"
+        },
+        {
+          "name": "J.Hernandez",
+          "jersey number": "15"
+        },
+        {
+          "name": "L.Pires",
+          "jersey number": "33"
+        }
+      ],
+      "midfielders": [
+        {
+          "name": "R.Alcaraz",
+          "jersey number": "4"
+        },
+        {
+          "name": "A.Fernandez",
+          "jersey number": "8"
+        },
+        {
+          "name": "G.Escalante",
+          "jersey number": "17"
+        },
+        {
+          "name": "R.Kouamé",
+          "jersey number": "12"
+        }
+      ],
+      "attackers": [
+        {
+          "name": "C.Ramos",
+          "jersey number": "16"
+        },
+        {
+          "name": "I.Alejo",
+          "jersey number": "11"
+        },
+        {
+          "name": "R.Sobrino",
+          "jersey number": "7"
+        },
+        {
+          "name": "M.Gomez",
+          "jersey number": "25"
+        }
+      ]
+    },
+    {
+      "name": "Granada CF",
+      "logo": "/images/teams/laliga/granada.png",
+      "goalkeepers": [
+        {
+          "name": "A.Batalla",
+          "jersey number": "25"
+        },
+        {
+          "name": "R.Fernandez",
+          "jersey number": "1"
+        }
+      ],
+      "defenders": [
+        {
+          "name": "R.Sánchez",
+          "jersey number": "12"
+        },
+        {
+          "name": "I.Miquel",
+          "jersey number": "14"
+        },
+        {
+          "name": "C.Neva",
+          "jersey number": "15"
+        },
+        {
+          "name": "R.Torrente",
+          "jersey number": "28"
+        }
+      ],
+      "midfielders": [
+        {
+          "name": "G.Gumbau",
+          "jersey number": "23"
+        },
+        {
+          "name": "S.Ruiz",
+          "jersey number": "20"
+        },
+        {
+          "name": "G.Villar",
+          "jersey number": "24"
+        },
+        {
+          "name": "O.Melendo",
+          "jersey number": "21"
+        }
+      ],
+      "attackers": [
+        {
+          "name": "A.Puertas",
+          "jersey number": "10"
+        },
+        {
+          "name": "M.Uzuni",
+          "jersey number": "11"
+        },
+        {
+          "name": "L.Boyé",
+          "jersey number": "7"
+        },
+        {
+          "name": "J.Callejon",
+          "jersey number": "9"
+        }
+      ]
+    },
+    {
+      "name": "Almeria",
+      "logo": "/images/teams/laliga/almeria.png",
+      "goalkeepers": [
+        {
+          "name": "L.Maximiano",
+          "jersey number": "25"
+        },
+        {
+          "name": "D.Mariño",
+          "jersey number": "1"
+        }
+      ],
+      "defenders": [
+        {
+          "name": "Edgar",
+          "jersey number": "3"
+        },
+        {
+          "name": "Chumi",
+          "jersey number": "21"
+        },
+        {
+          "name": "A.Pozo",
+          "jersey number": "17"
+        },
+        {
+          "name": "M.Pubill",
+          "jersey number": "18"
+        }
+      ],
+      "midfielders": [
+        {
+          "name": "L.Robertone",
+          "jersey number": "5"
+        },
+        {
+          "name": "A.Arribas",
+          "jersey number": "19"
+        },
+        {
+          "name": "D.Lopy",
+          "jersey number": "6"
+        },
+        {
+          "name": "G.Melero",
+          "jersey number": "11"
+        }
+      ],
+      "attackers": [
+        {
+          "name": "L.Ramazani",
+          "jersey number": "7"
+        },
+        {
+          "name": "L.Baptistao",
+          "jersey number": "12"
+        },
+        {
+          "name": "A.Embarba",
+          "jersey number": "10"
+        },
+        {
+          "name": "L.Suarez",
+          "jersey number": "9"
+        }
+      ]
+    }
+  ]
+}

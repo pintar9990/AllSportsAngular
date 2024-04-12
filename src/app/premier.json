@@ -1,0 +1,1368 @@
+{
+  "name": "Premier League",
+  "logo": "/images/leagues/logo/premier-league.png",
+  "art": "/images/leagues/arts/premier-league.png",
+  "standings": "/images/leagues/standings/standingsPremier.png",
+  "teams": [
+    {
+      "name": "Arsenal FC",
+      "logo": "/images/teams/premier/arsenal.png",
+      "goalkeepers": [
+        {
+          "name": "D.Raya",
+          "jersey number": "22"
+        },
+        {
+          "name": "A.Ramsdale",
+          "jersey number": "1"
+        }
+      ],
+      "defenders": [
+        {
+          "name": "B.White",
+          "jersey number": "4"
+        },
+        {
+          "name": "W.Saliba",
+          "jersey number": "2"
+        },
+        {
+          "name": "Gabriel",
+          "jersey number": "6"
+        },
+        {
+          "name": "O.Zinchenko",
+          "jersey number": "35"
+        }
+      ],
+      "midfielders": [
+        {
+          "name": "D.Rice",
+          "jersey number": "41"
+        },
+        {
+          "name": "M.Odegaard",
+          "jersey number": "8"
+        },
+        {
+          "name": "Jorginho",
+          "jersey number": "20"
+        },
+        {
+          "name": "L.Trossard",
+          "jersey number": "19"
+        }
+      ],
+      "attackers": [
+        {
+          "name": "B.Saka",
+          "jersey number": "7"
+        },
+        {
+          "name": "G.Martinelli",
+          "jersey number": "11"
+        },
+        {
+          "name": "K.Havertz",
+          "jersey number": "29"
+        },
+        {
+          "name": "E.Nketiah",
+          "jersey number": "14"
+        }
+      ]
+    },
+    {
+      "name": "Liverpool",
+      "logo": "/images/teams/premier/liverpool.png",
+      "goalkeepers": [
+        {
+          "name": "A.Becker",
+          "jersey number": "1"
+        },
+        {
+          "name": "C.Kelleher",
+          "jersey number": "62"
+        }
+      ],
+      "defenders": [
+        {
+          "name": "J.Gomez",
+          "jersey number": "2"
+        },
+        {
+          "name": "V.Van Dijk",
+          "jersey number": "4"
+        },
+        {
+          "name": "I.Konate",
+          "jersey number": "5"
+        },
+        {
+          "name": "Alexander-Arnold",
+          "jersey number": "66"
+        }
+      ],
+      "midfielders": [
+        {
+          "name": "H.Elliot",
+          "jersey number": "19"
+        },
+        {
+          "name": "A.Mac Allister",
+          "jersey number": "10"
+        },
+        {
+          "name": "W.Endo",
+          "jersey number": "3"
+        },
+        {
+          "name": "D.Szoboszlai",
+          "jersey number": "8"
+        }
+      ],
+      "attackers": [
+        {
+          "name": "D.Nuñez",
+          "jersey number": "9"
+        },
+        {
+          "name": "C.Gakpo",
+          "jersey number": "18"
+        },
+        {
+          "name": "L.Diaz",
+          "jersey number": "7"
+        },
+        {
+          "name": "M.Salah",
+          "jersey number": "11"
+        }
+      ]
+    },
+    {
+      "name": "Manchester City",
+      "logo": "/images/teams/premier/manchester-city.png",
+      "goalkeepers": [
+        {
+          "name": "Ederson",
+          "jersey number": "31"
+        },
+        {
+          "name": "S.Ortega",
+          "jersey number": "18"
+        }
+      ],
+      "defenders": [
+        {
+          "name": "K.Walker",
+          "jersey number": "2"
+        },
+        {
+          "name": "R.Diaz",
+          "jersey number": "3"
+        },
+        {
+          "name": "N.Ake",
+          "jersey number": "6"
+        },
+        {
+          "name": "M.Akanji",
+          "jersey number": "25"
+        }
+      ],
+      "midfielders": [
+        {
+          "name": "K.De Bruyne",
+          "jersey number": "17"
+        },
+        {
+          "name": "Rodri",
+          "jersey number": "16"
+        },
+        {
+          "name": "P.Foden",
+          "jersey number": "47"
+        },
+        {
+          "name": "B.Silva",
+          "jersey number": "20"
+        }
+      ],
+      "attackers": [
+        {
+          "name": "J.Alvarez",
+          "jersey number": "19"
+        },
+        {
+          "name": "J.Doku",
+          "jersey number": "11"
+        },
+        {
+          "name": "J.Grealish",
+          "jersey number": "10"
+        },
+        {
+          "name": "E.Haaland",
+          "jersey number": "9"
+        }
+      ]
+    },
+    {
+      "name": "Aston Villa",
+      "logo": "/images/teams/premier/aston-villa.png",
+      "goalkeepers": [
+        {
+          "name": "E.Martinez",
+          "jersey number": "1"
+        },
+        {
+          "name": "R.Olsen",
+          "jersey number": "25"
+        }
+      ],
+      "defenders": [
+        {
+          "name": "M.Cash",
+          "jersey number": "2"
+        },
+        {
+          "name": "E.Konsa",
+          "jersey number": "4"
+        },
+        {
+          "name": "P.Torres",
+          "jersey number": "14"
+        },
+        {
+          "name": "D.Carlos",
+          "jersey number": "3"
+        }
+      ],
+      "midfielders": [
+        {
+          "name": "D.Luiz",
+          "jersey number": "6"
+        },
+        {
+          "name": "J.McGinn",
+          "jersey number": "7"
+        },
+        {
+          "name": "Y.Tielemans",
+          "jersey number": "8"
+        },
+        {
+          "name": "N.Zaniolo",
+          "jersey number": "22"
+        }
+      ],
+      "attackers": [
+        {
+          "name": "M.Diby",
+          "jersey number": "19"
+        },
+        {
+          "name": "L.Bailey",
+          "jersey number": "31"
+        },
+        {
+          "name": "J.Duran",
+          "jersey number": "24"
+        },
+        {
+          "name": "O.Watkins",
+          "jersey number": "11"
+        }
+      ]
+    },
+    {
+      "name": "Tottenham",
+      "logo": "/images/teams/premier/tottenham.png",
+      "goalkeepers": [
+        {
+          "name": "G.Vicario",
+          "jersey number": "13"
+        },
+        {
+          "name": "F-Forster",
+          "jersey number": "20"
+        }
+      ],
+      "defenders": [
+        {
+          "name": "P.Porro",
+          "jersey number": "23"
+        },
+        {
+          "name": "D.Udogie",
+          "jersey number": "38"
+        },
+        {
+          "name": "E.Royal",
+          "jersey number": "12"
+        },
+        {
+          "name": "M.Van de Ven",
+          "jersey number": "37"
+        }
+      ],
+      "midfielders": [
+        {
+          "name": "P.Hojbjerg",
+          "jersey number": "5"
+        },
+        {
+          "name": "D.Kulusevski",
+          "jersey number": "21"
+        },
+        {
+          "name": "B.Johnson",
+          "jersey number": "22"
+        },
+        {
+          "name": "J.Maddison",
+          "jersey number": "10"
+        }
+      ],
+      "attackers": [
+        {
+          "name": "Son",
+          "jersey number": "7"
+        },
+        {
+          "name": "Richarlison",
+          "jersey number": "9"
+        },
+        {
+          "name": "P.Sarr",
+          "jersey number": "29"
+        },
+        {
+          "name": "T.Werner",
+          "jersey number": "16"
+        }
+      ]
+    },
+    {
+      "name": "Manchester United",
+      "logo": "/images/teams/premier/manchester-united.png",
+      "goalkeepers": [
+        {
+          "name": "A.Onana",
+          "jersey number": "24"
+        },
+        {
+          "name": "T.Heaton",
+          "jersey number": "22"
+        }
+      ],
+      "defenders": [
+        {
+          "name": "D.Dalot",
+          "jersey number": "20"
+        },
+        {
+          "name": "R.Varane",
+          "jersey number": "19"
+        },
+        {
+          "name": "V.Lindelöf",
+          "jersey number": "2"
+        },
+        {
+          "name": "H.Maguire",
+          "jersey number": "5"
+        }
+      ],
+      "midfielders": [
+        {
+          "name": "B.Fernandes",
+          "jersey number": "8"
+        },
+        {
+          "name": "S.McTominay",
+          "jersey number": "39"
+        },
+        {
+          "name": "K.Mainoo",
+          "jersey number": "38"
+        },
+        {
+          "name": "Casemiro",
+          "jersey number": "18"
+        }
+      ],
+      "attackers": [
+        {
+          "name": "A.Garnacho",
+          "jersey number": "17"
+        },
+        {
+          "name": "M.Rashford",
+          "jersey number": "10"
+        },
+        {
+          "name": "R.Hojlund",
+          "jersey number": "11"
+        },
+        {
+          "name": "A.Martial",
+          "jersey number": "9"
+        }
+      ]
+    },
+    {
+      "name": "West Ham",
+      "logo": "/images/teams/premier/west-ham.png",
+      "goalkeepers": [
+        {
+          "name": "A.Areola",
+          "jersey number": "23"
+        },
+        {
+          "name": "L.Fabianski",
+          "jersey number": "1"
+        }
+      ],
+      "defenders": [
+        {
+          "name": "Emerson",
+          "jersey number": "33"
+        },
+        {
+          "name": "V.Coufal",
+          "jersey number": "5"
+        },
+        {
+          "name": "K.Zouma",
+          "jersey number": "4"
+        },
+        {
+          "name": "K.Mavropanos",
+          "jersey number": "15"
+        }
+      ],
+      "midfielders": [
+        {
+          "name": "T.Soucek",
+          "jersey number": "28"
+        },
+        {
+          "name": "J.Ward-Prowse",
+          "jersey number": "7"
+        },
+        {
+          "name": "E.Alvarez",
+          "jersey number": "19"
+        },
+        {
+          "name": "M.Kudus",
+          "jersey number": "14"
+        }
+      ],
+      "attackers": [
+        {
+          "name": "L.Paqueta",
+          "jersey number": "10"
+        },
+        {
+          "name": "M.Antonio",
+          "jersey number": "9"
+        },
+        {
+          "name": "J.Bowen",
+          "jersey number": "20"
+        },
+        {
+          "name": "D.Ings",
+          "jersey number": "18"
+        }
+      ]
+    },
+    {
+      "name": "Brighton",
+      "logo": "/images/teams/premier/brighton.png",
+      "goalkeepers": [
+        {
+          "name": "S.Steele",
+          "jersey number": "23"
+        },
+        {
+          "name": "B.Verbruggen",
+          "jersey number": "1"
+        }
+      ],
+      "defenders": [
+        {
+          "name": "L.Dunk",
+          "jersey number": "5"
+        },
+        {
+          "name": "J.Van Hecke",
+          "jersey number": "29"
+        },
+        {
+          "name": "Igor",
+          "jersey number": "3"
+        },
+        {
+          "name": "P.Estupiñan",
+          "jersey number": "30"
+        }
+      ],
+      "midfielders": [
+        {
+          "name": "B.Gilmour",
+          "jersey number": "11"
+        },
+        {
+          "name": "S.Adingra",
+          "jersey number": "24"
+        },
+        {
+          "name": "F.Buonanotte",
+          "jersey number": "40"
+        },
+        {
+          "name": "C.Baleba",
+          "jersey number": "20"
+        }
+      ],
+      "attackers": [
+        {
+          "name": "J.Pedro",
+          "jersey number": "9"
+        },
+        {
+          "name": "A.Fati",
+          "jersey number": "31"
+        },
+        {
+          "name": "P.Grob",
+          "jersey number": "13"
+        },
+        {
+          "name": "D.Welbeck",
+          "jersey number": "18"
+        }
+      ]
+    },
+    {
+      "name": "Wolverhampton",
+      "logo": "/images/teams/premier/wolverhampton.png",
+      "goalkeepers": [
+        {
+          "name": "J.Sá",
+          "jersey number": "1"
+        },
+        {
+          "name": "D.Bentley",
+          "jersey number": "25"
+        }
+      ],
+      "defenders": [
+        {
+          "name": "M.Kilman",
+          "jersey number": "23"
+        },
+        {
+          "name": "N.Semedo",
+          "jersey number": "22"
+        },
+        {
+          "name": "Toti",
+          "jersey number": "24"
+        },
+        {
+          "name": "R.Aït-Nouri",
+          "jersey number": "3"
+        }
+      ],
+      "midfielders": [
+        {
+          "name": "M.Lemina",
+          "jersey number": "5"
+        },
+        {
+          "name": "M.Doherty",
+          "jersey number": "2"
+        },
+        {
+          "name": "J.Gomez",
+          "jersey number": "8"
+        },
+        {
+          "name": "T.Doyle",
+          "jersey number": "20"
+        }
+      ],
+      "attackers": [
+        {
+          "name": "M.Cunha",
+          "jersey number": "12"
+        },
+        {
+          "name": "P.Neto",
+          "jersey number": "7"
+        },
+        {
+          "name": "P.Sarabia",
+          "jersey number": "21"
+        },
+        {
+          "name": "H.Hee-Chan",
+          "jersey number": "11"
+        }
+      ]
+    },
+    {
+      "name": "Newcastle",
+      "logo": "/images/teams/premier/newcastle.png",
+      "goalkeepers": [
+        {
+          "name": "M.Dubravka",
+          "jersey number": "1"
+        },
+        {
+          "name": "N.Pope",
+          "jersey number": "22"
+        }
+      ],
+      "defenders": [
+        {
+          "name": "F.Schar",
+          "jersey number": "5"
+        },
+        {
+          "name": "K.Trippier",
+          "jersey number": "2"
+        },
+        {
+          "name": "D.Burn",
+          "jersey number": "33"
+        },
+        {
+          "name": "T.Livramento",
+          "jersey number": "21"
+        }
+      ],
+      "midfielders": [
+        {
+          "name": "A.Gordon",
+          "jersey number": "10"
+        },
+        {
+          "name": "B.Guimarães",
+          "jersey number": "39"
+        },
+        {
+          "name": "S.Longstaff",
+          "jersey number": "36"
+        },
+        {
+          "name": "L.Miley",
+          "jersey number": "67"
+        }
+      ],
+      "attackers": [
+        {
+          "name": "M.Almiron",
+          "jersey number": "24"
+        },
+        {
+          "name": "A.Isak",
+          "jersey number": "14"
+        },
+        {
+          "name": "C.Wilson",
+          "jersey number": "9"
+        },
+        {
+          "name": "J.Murphy",
+          "jersey number": "23"
+        }
+      ]
+    },
+    {
+      "name": "Chelsea",
+      "logo": "/images/teams/premier/chelsea.png",
+      "goalkeepers": [
+        {
+          "name": "R.Sanchez",
+          "jersey number": "1"
+        },
+        {
+          "name": "D.Petrovic",
+          "jersey number": "28"
+        }
+      ],
+      "defenders": [
+        {
+          "name": "A.Disasi",
+          "jersey number": "2"
+        },
+        {
+          "name": "L.Colwill",
+          "jersey number": "26"
+        },
+        {
+          "name": "T.Silva",
+          "jersey number": "6"
+        },
+        {
+          "name": "M.Gusto",
+          "jersey number": "27"
+        }
+      ],
+      "midfielders": [
+        {
+          "name": "C.Gallager",
+          "jersey number": "23"
+        },
+        {
+          "name": "M.Caicedo",
+          "jersey number": "25"
+        },
+        {
+          "name": "E.Fernandez",
+          "jersey number": "8"
+        },
+        {
+          "name": "C.Palmer",
+          "jersey number": "20"
+        }
+      ],
+      "attackers": [
+        {
+          "name": "R.Sterling",
+          "jersey number": "7"
+        },
+        {
+          "name": "N.Jackson",
+          "jersey number": "15"
+        },
+        {
+          "name": "M.Mudryk",
+          "jersey number": "10"
+        },
+        {
+          "name": "N.Madueke",
+          "jersey number": "11"
+        }
+      ]
+    },
+    {
+      "name": "Fulham",
+      "logo": "/images/teams/premier/fulham.png",
+      "goalkeepers": [
+        {
+          "name": "B.leno",
+          "jersey number": "17"
+        },
+        {
+          "name": "M.Rodák",
+          "jersey number": "1"
+        }
+      ],
+      "defenders": [
+        {
+          "name": "A.Robinson",
+          "jersey number": "33"
+        },
+        {
+          "name": "T.Castagne",
+          "jersey number": "21"
+        },
+        {
+          "name": "C.Bassey",
+          "jersey number": "3"
+        },
+        {
+          "name": "I.Diop",
+          "jersey number": "31"
+        }
+      ],
+      "midfielders": [
+        {
+          "name": "A.Pereira",
+          "jersey number": "18"
+        },
+        {
+          "name": "H.Wilson",
+          "jersey number": "8"
+        },
+        {
+          "name": "T.Cairney",
+          "jersey number": "10"
+        },
+        {
+          "name": "H.Reed",
+          "jersey number": "6"
+        }
+      ],
+      "attackers": [
+        {
+          "name": "Willian",
+          "jersey number": "20"
+        },
+        {
+          "name": "R.Jimenez",
+          "jersey number": "7"
+        },
+        {
+          "name": "R.Muniz",
+          "jersey number": "19"
+        },
+        {
+          "name": "A.Traoré",
+          "jersey number": "11"
+        }
+      ]
+    },
+    {
+      "name": "Bournemouth",
+      "logo": "/images/teams/premier/bournemouth.png",
+      "goalkeepers": [
+        {
+          "name": "Neto",
+          "jersey number": "1"
+        },
+        {
+          "name": "I.Radu",
+          "jersey number": "20"
+        }
+      ],
+      "defenders": [
+        {
+          "name": "I.Zabarnyi",
+          "jersey number": "27"
+        },
+        {
+          "name": "M.Sensei",
+          "jersey number": "25"
+        },
+        {
+          "name": "M.Kerkez",
+          "jersey number": "3"
+        },
+        {
+          "name": "A.Smith",
+          "jersey number": "15"
+        }
+      ],
+      "midfielders": [
+        {
+          "name": "R.Christie",
+          "jersey number": "10"
+        },
+        {
+          "name": "M.Tavernier",
+          "jersey number": "16"
+        },
+        {
+          "name": "L.Cook",
+          "jersey number": "4"
+        },
+        {
+          "name": "A.Samenyo",
+          "jersey number": "24"
+        }
+      ],
+      "attackers": [
+        {
+          "name": "J.Kluivert",
+          "jersey number": "19"
+        },
+        {
+          "name": "D.Outtara",
+          "jersey number": "11"
+        },
+        {
+          "name": "L.Sinisterra",
+          "jersey number": "17"
+        },
+        {
+          "name": "D.Solanke",
+          "jersey number": "9"
+        }
+      ]
+    },
+    {
+      "name": "Crystal Palace",
+      "logo": "/images/teams/premier/crystal-palace.png",
+      "goalkeepers": [
+        {
+          "name": "S.Jhonstone",
+          "jersey number": "1"
+        },
+        {
+          "name": "D.Henderson",
+          "jersey number": "30"
+        }
+      ],
+      "defenders": [
+        {
+          "name": "T.Mitchell",
+          "jersey number": "27"
+        },
+        {
+          "name": "J.Andersen",
+          "jersey number": "16"
+        },
+        {
+          "name": "M.Guehi",
+          "jersey number": "6"
+        },
+        {
+          "name": "C.Richards",
+          "jersey number": "26"
+        }
+      ],
+      "midfielders": [
+        {
+          "name": "J.Lerma",
+          "jersey number": "8"
+        },
+        {
+          "name": "J.Schlupp",
+          "jersey number": "15"
+        },
+        {
+          "name": "W.Hughes",
+          "jersey number": "19"
+        },
+        {
+          "name": "N.Ahamada",
+          "jersey number": "29"
+        }
+      ],
+      "attackers": [
+        {
+          "name": "O.Édouard",
+          "jersey number": "22"
+        },
+        {
+          "name": "E.Eze",
+          "jersey number": "10"
+        },
+        {
+          "name": "J.Mateta",
+          "jersey number": "14"
+        },
+        {
+          "name": "J.Ayew",
+          "jersey number": "9"
+        }
+      ]
+    },
+    {
+      "name": "Brentford",
+      "logo": "/images/teams/premier/brentford.png",
+      "goalkeepers": [
+        {
+          "name": "M.Flekken",
+          "jersey number": "1"
+        },
+        {
+          "name": "T.Strakosha",
+          "jersey number": "21"
+        }
+      ],
+      "defenders": [
+        {
+          "name": "C.Norgaard",
+          "jersey number": "6"
+        },
+        {
+          "name": "N.Clollins",
+          "jersey number": "22"
+        },
+        {
+          "name": "E.Pinnock",
+          "jersey number": "5"
+        },
+        {
+          "name": "K.Ajer",
+          "jersey number": "20"
+        }
+      ],
+      "midfielders": [
+        {
+          "name": "V.Janelt",
+          "jersey number": "27"
+        },
+        {
+          "name": "M.Rasmussen",
+          "jersey number": "30"
+        },
+        {
+          "name": "M.Jensen",
+          "jersey number": "8"
+        },
+        {
+          "name": "K.Lewis-Potter",
+          "jersey number": "23"
+        }
+      ],
+      "attackers": [
+        {
+          "name": "Y.Wissa",
+          "jersey number": "11"
+        },
+        {
+          "name": "N.Maupay",
+          "jersey number": "7"
+        },
+        {
+          "name": "B.Mbeumo",
+          "jersey number": "19"
+        },
+        {
+          "name": "I.Toney",
+          "jersey number": "17"
+        }
+      ]
+    },
+    {
+      "name": "Everton",
+      "logo": "/images/teams/premier/everton.png",
+      "goalkeepers": [
+        {
+          "name": "J.Pickford",
+          "jersey number": "1"
+        },
+        {
+          "name": "J.Virginia",
+          "jersey number": "12"
+        }
+      ],
+      "defenders": [
+        {
+          "name": "J.Tarkowski",
+          "jersey number": "6"
+        },
+        {
+          "name": "J.Brantwaite",
+          "jersey number": "32"
+        },
+        {
+          "name": "V.Mykolenko",
+          "jersey number": "19"
+        },
+        {
+          "name": "N.Patterson",
+          "jersey number": "2"
+        }
+      ],
+      "midfielders": [
+        {
+          "name": "J.Garner",
+          "jersey number": "37"
+        },
+        {
+          "name": "D.Mcneil",
+          "jersey number": "7"
+        },
+        {
+          "name": "A.Onana",
+          "jersey number": "8"
+        },
+        {
+          "name": "A.Young",
+          "jersey number": "18"
+        }
+      ],
+      "attackers": [
+        {
+          "name": "J.Harrison",
+          "jersey number": "11"
+        },
+        {
+          "name": "A.Doucure",
+          "jersey number": "16"
+        },
+        {
+          "name": "D.Calvert-Lewin",
+          "jersey number": "9"
+        },
+        {
+          "name": "Beto",
+          "jersey number": "14"
+        }
+      ]
+    },
+    {
+      "name": "Nottingham Forest",
+      "logo": "/images/teams/premier/nottingham-forest.png",
+      "goalkeepers": [
+        {
+          "name": "M.Turner",
+          "jersey number": "1"
+        },
+        {
+          "name": "O.Vlachodimos",
+          "jersey number": "23"
+        }
+      ],
+      "defenders": [
+        {
+          "name": "Murillo",
+          "jersey number": "40"
+        },
+        {
+          "name": "H.Toffolo",
+          "jersey number": "15"
+        },
+        {
+          "name": "M.Niakhate",
+          "jersey number": "19"
+        },
+        {
+          "name": "W.Boly",
+          "jersey number": "30"
+        }
+      ],
+      "midfielders": [
+        {
+          "name": "A.Elanga",
+          "jersey number": "21"
+        },
+        {
+          "name": "R.Yates",
+          "jersey number": "22"
+        },
+        {
+          "name": "Danilo",
+          "jersey number": "28"
+        },
+        {
+          "name": "C.Hudson-Odoi",
+          "jersey number": "14"
+        }
+      ],
+      "attackers": [
+        {
+          "name": "M.Gibbs-White",
+          "jersey number": "10"
+        },
+        {
+          "name": "N.Williams",
+          "jersey number": "7"
+        },
+        {
+          "name": "C.Wood",
+          "jersey number": "11"
+        },
+        {
+          "name": "T.Awoniyi",
+          "jersey number": "9"
+        }
+      ]
+    },
+    {
+      "name": "Luton Town",
+      "logo": "/images/teams/premier/luton.png",
+      "goalkeepers": [
+        {
+          "name": "T.Kaminiski",
+          "jersey number": "24"
+        },
+        {
+          "name": "T.Krul",
+          "jersey number": "23"
+        }
+      ],
+      "defenders": [
+        {
+          "name": "T.Mengi",
+          "jersey number": "15"
+        },
+        {
+          "name": "R.Burke",
+          "jersey number": "16"
+        },
+        {
+          "name": "T.Lockyer",
+          "jersey number": "4"
+        },
+        {
+          "name": "M.Andersen",
+          "jersey number": "5"
+        }
+      ],
+      "midfielders": [
+        {
+          "name": "A.Doughty",
+          "jersey number": "45"
+        },
+        {
+          "name": "R.Barkley",
+          "jersey number": "6"
+        },
+        {
+          "name": "T.Chong",
+          "jersey number": "14"
+        },
+        {
+          "name": "A.Bell",
+          "jersey number": "29"
+        }
+      ],
+      "attackers": [
+        {
+          "name": "C.Morris",
+          "jersey number": "9"
+        },
+        {
+          "name": "C.Ogbene",
+          "jersey number": "7"
+        },
+        {
+          "name": "E.Adebayo",
+          "jersey number": "11"
+        },
+        {
+          "name": "C.Woodrow",
+          "jersey number": "10"
+        }
+      ]
+    },
+    {
+      "name": "Burnley",
+      "logo": "/images/teams/premier/burnley.png",
+      "goalkeepers": [
+        {
+          "name": "J.Trafford",
+          "jersey number": "1"
+        },
+        {
+          "name": "A.Muric",
+          "jersey number": "49"
+        }
+      ],
+      "defenders": [
+        {
+          "name": "D.O'Shea",
+          "jersey number": "2"
+        },
+        {
+          "name": "C.Taylor",
+          "jersey number": "3"
+        },
+        {
+          "name": "A.Al Dekhil",
+          "jersey number": "28"
+        },
+        {
+          "name": "J.Beyer",
+          "jersey number": "5"
+        }
+      ],
+      "midfielders": [
+        {
+          "name": "S.Berge",
+          "jersey number": "16"
+        },
+        {
+          "name": "J.Brownhill",
+          "jersey number": "8"
+        },
+        {
+          "name": "Vitinho",
+          "jersey number": "22"
+        },
+        {
+          "name": "J.Bruun Larsen",
+          "jersey number": "34"
+        }
+      ],
+      "attackers": [
+        {
+          "name": "Z.Amdouni",
+          "jersey number": "25"
+        },
+        {
+          "name": "W.Obobert",
+          "jersey number": "47"
+        },
+        {
+          "name": "J.Rodríguez",
+          "jersey number": "9"
+        },
+        {
+          "name": "L.Foster",
+          "jersey number": "17"
+        }
+      ]
+    },
+    {
+      "name": "Sheffield United",
+      "logo": "/images/teams/premier/sheffield.png",
+      "goalkeepers": [
+        {
+          "name": "W.Foderingham",
+          "jersey number": "18"
+        },
+        {
+          "name": "I.Grbic",
+          "jersey number": "13"
+        }
+      ],
+      "defenders": [
+        {
+          "name": "J.Robinson",
+          "jersey number": "19"
+        },
+        {
+          "name": "A.Trusty",
+          "jersey number": "5"
+        },
+        {
+          "name": "A.Ahmedhodzic",
+          "jersey number": "15"
+        },
+        {
+          "name": "C.basham",
+          "jersey number": "6"
+        }
+      ],
+      "midfielders": [
+        {
+          "name": "V.Souza",
+          "jersey number": "21"
+        },
+        {
+          "name": "G.Hamer",
+          "jersey number": "8"
+        },
+        {
+          "name": "J.Bogle",
+          "jersey number": "20"
+        },
+        {
+          "name": "B.Osborn",
+          "jersey number": "23"
+        }
+      ],
+      "attackers": [
+        {
+          "name": "J.McAtee",
+          "jersey number": "28"
+        },
+        {
+          "name": "C.Archer",
+          "jersey number": "10"
+        },
+        {
+          "name": "W.Osula",
+          "jersey number": "32"
+        },
+        {
+          "name": "O.McBurnie",
+          "jersey number": "9"
+        }
+      ]
+    }
+  ]
+}

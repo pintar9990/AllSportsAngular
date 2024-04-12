@@ -1,0 +1,2030 @@
+{
+  "name": "NBA",
+  "logo": "/images/leagues/logo/nba.png",
+  "art": "/images/leagues/arts/nba.png",
+  "standings": "/images/leagues/standings/standingsNBA.png",
+  "westernConference": [
+    {
+      "name": "Oklahoma City Thunder",
+      "logo": "/images/teams/nba/thunder.png",
+      "point guards": [
+        {
+          "name": "J.Giddey",
+          "jersey number": "3"
+        },
+        {
+          "name": "I.Joe",
+          "jersey number": "11"
+        }
+      ],
+      "shooting guards": [
+        {
+          "name": "Shai",
+          "jersey number": "2"
+        },
+        {
+          "name": "C.Wallace",
+          "jersey number": "22"
+        },
+        {
+          "name": "Lu Dort",
+          "jersey number": "5"
+        }
+      ],
+      "small forwards": [
+        {
+          "name": "A.Wiggins",
+          "jersey number": "21"
+        },
+        {
+          "name": "J.Williams",
+          "jersey number": "8"
+        },
+        {
+          "name": "A.Pokusevski",
+          "jersey number": "17"
+        }
+      ],
+      "power forwards": [
+        {
+          "name": "C.Holmgren",
+          "jersey number": "7"
+        },
+        {
+          "name": "Jaylin",
+          "jersey number": "6"
+        },
+        {
+          "name": "D.Bertans",
+          "jersey number": "9"
+        }
+      ],
+      "centers": [
+        {
+          "name": "O.Sarr",
+          "jersey number": "30"
+        }
+      ]
+    },
+    {
+      "name": "Minnesota Timberwolves",
+      "logo": "/images/teams/nba/timberwolves.png",
+      "point guards": [
+        {
+          "name": "M.Conley",
+          "jersey number": "10"
+        },
+        {
+          "name": "M.Morris",
+          "jersey number": "23"
+        }
+      ],
+      "shooting guards": [
+        {
+          "name": "A.Edwards",
+          "jersey number": "5"
+        },
+        {
+          "name": "N.Alexander-W",
+          "jersey number": "9"
+        },
+        {
+          "name": "W.Moore",
+          "jersey number": "7"
+        }
+      ],
+      "small forwards": [
+        {
+          "name": "J.McDaniels",
+          "jersey number": "3"
+        },
+        {
+          "name": "K.Anderson",
+          "jersey number": "1"
+        },
+        {
+          "name": "T.J.Warren",
+          "jersey number": "24"
+        }
+      ],
+      "power forwards": [
+        {
+          "name": "K.A.Towns",
+          "jersey number": "32"
+        },
+        {
+          "name": "L.Miller",
+          "jersey number": "33"
+        }
+      ],
+      "centers": [
+        {
+          "name": "R.Gobert",
+          "jersey number": "27"
+        },
+        {
+          "name": "N.Reid",
+          "jersey number": "11"
+        }
+      ]
+    },
+    {
+      "name": "Denver Nuggets",
+      "logo": "/images/teams/nba/nuggets.png",
+      "point guards": [
+        {
+          "name": "J.Murray",
+          "jersey number": "27"
+        },
+        {
+          "name": "R.Jackson",
+          "jersey number": "7"
+        }
+      ],
+      "shooting guards": [
+        {
+          "name": "K.Caldwell-P",
+          "jersey number": "5"
+        },
+        {
+          "name": "C.Braun",
+          "jersey number": "0"
+        }
+      ],
+      "small forwards": [
+        {
+          "name": "M.Porter Jr",
+          "jersey number": "1"
+        },
+        {
+          "name": "Julian Strawther",
+          "jersey number": "3"
+        },
+        {
+          "name": "V.Cancar",
+          "jersey number": "31"
+        }
+      ],
+      "power forwards": [
+        {
+          "name": "A.Gordon",
+          "jersey number": "50"
+        },
+        {
+          "name": "P.Watson",
+          "jersey number": "8"
+        }
+      ],
+      "centers": [
+        {
+          "name": "N.Jokic",
+          "jersey number": "15"
+        },
+        {
+          "name": "D.Jordan",
+          "jersey number": "6"
+        }
+      ]
+    },
+    {
+      "name": "Los Angeles Clippers",
+      "logo": "/images/teams/nba/clippers.png",
+      "point guards": [
+        {
+          "name": "J.Harden",
+          "jersey number": "1"
+        },
+        {
+          "name": "R.Westbrook",
+          "jersey number": "0"
+        },
+        {
+          "name": "B.Hyland",
+          "jersey number": "5"
+        }
+      ],
+      "shooting guards": [
+        {
+          "name": "T.Mann",
+          "jersey number": "14"
+        },
+        {
+          "name": "N.Powell",
+          "jersey number": "24"
+        }
+      ],
+      "small forwards": [
+        {
+          "name": "P.George",
+          "jersey number": "13"
+        },
+        {
+          "name": "J.Primo",
+          "jersey number": "12"
+        },
+        {
+          "name": "J.Miller",
+          "jersey number": "11"
+        }
+      ],
+      "power forwards": [
+        {
+          "name": "K.Leonard",
+          "jersey number": "2"
+        },
+        {
+          "name": "P.J.Tucker",
+          "jersey number": "17"
+        }
+      ],
+      "centers": [
+        {
+          "name": "I.Zubac",
+          "jersey number": "40"
+        },
+        {
+          "name": "M.Plumlee",
+          "jersey number": "44"
+        },
+        {
+          "name": "D.Theis",
+          "jersey number": "10"
+        }
+      ]
+    },
+    {
+      "name": "New Orleans Pelicans",
+      "logo": "/images/teams/nba/pelicans.png",
+      "point guards": [
+        {
+          "name": "C.J.McCollumn",
+          "jersey number": "3"
+        },
+        {
+          "name": "J.Alvarado",
+          "jersey number": "15"
+        }
+      ],
+      "shooting guards": [
+        {
+          "name": "B.Ingram",
+          "jersey number": "14"
+        },
+        {
+          "name": "T.Murphy III",
+          "jersey number": "25"
+        }
+      ],
+      "small forwards": [
+        {
+          "name": "H.Jones",
+          "jersey number": "5"
+        },
+        {
+          "name": "D.Daniels",
+          "jersey number": "11"
+        }
+      ],
+      "power forwards": [
+        {
+          "name": "Z.Williamson",
+          "jersey number": "1"
+        },
+        {
+          "name": "N.Marshall",
+          "jersey number": "8"
+        },
+        {
+          "name": "L.Nance Jr",
+          "jersey number": "22"
+        }
+      ],
+      "centers": [
+        {
+          "name": "J.Valanciunas",
+          "jersey number": "17"
+        },
+        {
+          "name": "C.Zeller",
+          "jersey number": "44"
+        }
+      ]
+    },
+    {
+      "name": "Sacramento Kings",
+      "logo": "/images/teams/nba/kings.png",
+      "point guards": [
+        {
+          "name": "D.Fox",
+          "jersey number": "5"
+        },
+        {
+          "name": "D.Mitchell",
+          "jersey number": "15"
+        },
+        {
+          "name": "K.Ellis",
+          "jersey number": "23"
+        }
+      ],
+      "shooting guards": [
+        {
+          "name": "K.Huerter",
+          "jersey number": "9"
+        },
+        {
+          "name": "M.Monk",
+          "jersey number": "0"
+        }
+      ],
+      "small forwards": [
+        {
+          "name": "H.Barnes",
+          "jersey number": "40"
+        },
+        {
+          "name": "K.Edwards",
+          "jersey number": "17"
+        },
+        {
+          "name": "C.Duarte",
+          "jersey number": "3"
+        }
+      ],
+      "power forwards": [
+        {
+          "name": "K.Murray",
+          "jersey number": "13"
+        },
+        {
+          "name": "S.Vezenkov",
+          "jersey number": "8"
+        }
+      ],
+      "centers": [
+        {
+          "name": "D.Sabonis",
+          "jersey number": "10"
+        },
+        {
+          "name": "T.Lyles",
+          "jersey number": "41"
+        },
+        {
+          "name": "J.McGee",
+          "jersey number": "00"
+        }
+      ]
+    },
+    {
+      "name": "Dallas Mavericks",
+      "logo": "/images/teams/nba/mavericks.png",
+      "point guards": [
+        {
+          "name": "L.Doncic",
+          "jersey number": "77"
+        },
+        {
+          "name": "D.Exum",
+          "jersey number": "0"
+        }
+      ],
+      "shooting guards": [
+        {
+          "name": "K.Irving",
+          "jersey number": "11"
+        },
+        {
+          "name": "T.Hardaway Jr",
+          "jersey number": "10"
+        }
+      ],
+      "small forwards": [
+        {
+          "name": "J.Green",
+          "jersey number": "8"
+        },
+        {
+          "name": "0.Prosper",
+          "jersey number": "18"
+        },
+        {
+          "name": "M.Morris",
+          "jersey number": "88"
+        }
+      ],
+      "power forwards": [
+        {
+          "name": "P.J.Washington",
+          "jersey number": "25"
+        },
+        {
+          "name": "D.Jones Jr",
+          "jersey number": "55"
+        },
+        {
+          "name": "M.Kebler",
+          "jersey number": "42"
+        }
+      ],
+      "centers": [
+        {
+          "name": "D.lively II",
+          "jersey number": "2"
+        },
+        {
+          "name": "D.Gafford",
+          "jersey number": "21"
+        },
+        {
+          "name": "D.Powell",
+          "jersey number": "7"
+        }
+      ]
+    },
+    {
+      "name": "Phoenix Suns",
+      "logo": "/images/teams/nba/suns.png",
+      "point guards": [
+        {
+          "name": "D.Booker",
+          "jersey number": "1"
+        },
+        {
+          "name": "S.Lee",
+          "jersey number": "38"
+        }
+      ],
+      "shooting guards": [
+        {
+          "name": "B.Beal",
+          "jersey number": "3"
+        },
+        {
+          "name": "E.Gordon",
+          "jersey number": "23"
+        },
+        {
+          "name": "D.Lee",
+          "jersey number": "10"
+        }
+      ],
+      "small forwards": [
+        {
+          "name": "G.Allen",
+          "jersey number": "8"
+        },
+        {
+          "name": "R.O'Neal",
+          "jersey number": "00"
+        },
+        {
+          "name": "J.Okogie",
+          "jersey number": "2"
+        }
+      ],
+      "power forwards": [
+        {
+          "name": "K.Durant",
+          "jersey number": "35"
+        },
+        {
+          "name": "B.Bol",
+          "jersey number": "11"
+        },
+        {
+          "name": "N.Little",
+          "jersey number": "25"
+        }
+      ],
+      "centers": [
+        {
+          "name": "J.Nurkic",
+          "jersey number": "20"
+        },
+        {
+          "name": "T.Young",
+          "jersey number": "30"
+        },
+        {
+          "name": "D.Eubanks",
+          "jersey number": "14"
+        }
+      ]
+    },
+    {
+      "name": "Los Angeles Lakers",
+      "logo": "/images/teams/nba/lakers.png",
+      "point guards": [
+        {
+          "name": "D.Russell",
+          "jersey number": "1"
+        },
+        {
+          "name": "G.Vincent",
+          "jersey number": "7"
+        }
+      ],
+      "shooting guards": [
+        {
+          "name": "A.Reaves",
+          "jersey number": "15"
+        },
+        {
+          "name": "E.Dinwiddie",
+          "jersey number": "26"
+        },
+        {
+          "name": "M.Chistie",
+          "jersey number": "10"
+        }
+      ],
+      "small forwards": [
+        {
+          "name": "L.James",
+          "jersey number": "23"
+        },
+        {
+          "name": "C.Reddish",
+          "jersey number": "5"
+        },
+        {
+          "name": "T.Prince",
+          "jersey number": "12"
+        }
+      ],
+      "power forwards": [
+        {
+          "name": "R.Hachimura",
+          "jersey number": "28"
+        },
+        {
+          "name": "C.Wood",
+          "jersey number": "35"
+        },
+        {
+          "name": "J.Vanderbilt",
+          "jersey number": "2"
+        }
+      ],
+      "centers": [
+        {
+          "name": "A.Davis",
+          "jersey number": "3"
+        },
+        {
+          "name": "J.Hayes",
+          "jersey number": "11"
+        }
+      ]
+    },
+    {
+      "name": "Golden State Warriors",
+      "logo": "/images/teams/nba/warriors.png",
+      "point guards": [
+        {
+          "name": "C.Paul",
+          "jersey number": "3"
+        },
+        {
+          "name": "B.Podziemski",
+          "jersey number": "2"
+        }
+      ],
+      "shooting guards": [
+        {
+          "name": "S.Curry",
+          "jersey number": "30"
+        },
+        {
+          "name": "K.Thompson",
+          "jersey number": "11"
+        },
+        {
+          "name": "G.Payton II",
+          "jersey number": "0"
+        }
+      ],
+      "small forwards": [
+        {
+          "name": "M.Moody",
+          "jersey number": "4"
+        },
+        {
+          "name": "J.Robinson",
+          "jersey number": "18"
+        },
+        {
+          "name": "J.Kuminga",
+          "jersey number": "00"
+        }
+      ],
+      "power forwards": [
+        {
+          "name": "A.Wiggins",
+          "jersey number": "22"
+        },
+        {
+          "name": "G.Santos",
+          "jersey number": "15"
+        },
+        {
+          "name": "D.Saric",
+          "jersey number": "20"
+        }
+      ],
+      "centers": [
+        {
+          "name": "D.Green",
+          "jersey number": "23"
+        },
+        {
+          "name": "K.Looney",
+          "jersey number": "5"
+        }
+      ]
+    },
+    {
+      "name": "Houston Rockets",
+      "logo": "/images/teams/nba/rockets.png",
+      "point guards": [
+        {
+          "name": "F.VanVleet",
+          "jersey number": "5"
+        },
+        {
+          "name": "A.Holiday",
+          "jersey number": "0"
+        }
+      ],
+      "shooting guards": [
+        {
+          "name": "J.Green",
+          "jersey number": "4"
+        },
+        {
+          "name": "A.Thompson",
+          "jersey number": "1"
+        },
+        {
+          "name": "R.Bullock",
+          "jersey number": "25"
+        }
+      ],
+      "small forwards": [
+        {
+          "name": "D.Brooks",
+          "jersey number": "9"
+        },
+        {
+          "name": "C.Whitmore",
+          "jersey number": "7"
+        },
+        {
+          "name": "J.Samuels",
+          "jersey number": "00"
+        }
+      ],
+      "power forwards": [
+        {
+          "name": "J.Smith Jr",
+          "jersey number": "10"
+        },
+        {
+          "name": "J.Tate",
+          "jersey number": "8"
+        },
+        {
+          "name": "A.Sengun",
+          "jersey number": "28"
+        }
+      ],
+      "centers": [
+        {
+          "name": "S.Adams",
+          "jersey number": "12"
+        },
+        {
+          "name": "B.Marjanovic",
+          "jersey number": "51"
+        },
+        {
+          "name": "J.Green",
+          "jersey number": "32"
+        }
+      ]
+    },
+    {
+      "name": "Utah Jazz",
+      "logo": "/images/teams/nba/jazz.png",
+      "point guards": [
+        {
+          "name": "K.George",
+          "jersey number": "3"
+        },
+        {
+          "name": "K.Dunn",
+          "jersey number": "11"
+        },
+        {
+          "name": "K.Lewis Jr",
+          "jersey number": "13"
+        }
+      ],
+      "shooting guards": [
+        {
+          "name": "C.Sexton",
+          "jersey number": "2"
+        },
+        {
+          "name": "J.Clarkson",
+          "jersey number": "00"
+        }
+      ],
+      "small forwards": [
+        {
+          "name": "L.Markkanen",
+          "jersey number": "23"
+        },
+        {
+          "name": "B.Sensabaugh",
+          "jersey number": "8"
+        },
+        {
+          "name": "T.Horton-Tuck.",
+          "jersey number": "5"
+        }
+      ],
+      "power forwards": [
+        {
+          "name": "T.Hendricks",
+          "jersey number": "0"
+        },
+        {
+          "name": "L.Samanic",
+          "jersey number": "19"
+        },
+        {
+          "name": "D.Bazley",
+          "jersey number": "21"
+        }
+      ],
+      "centers": [
+        {
+          "name": "J.Collins",
+          "jersey number": "20"
+        },
+        {
+          "name": "W.Kessler",
+          "jersey number": "24"
+        },
+        {
+          "name": "K.Lofton Jr",
+          "jersey number": "34"
+        }
+      ]
+    },
+    {
+      "name": "Memphis Grizzlies",
+      "logo": "/images/teams/nba/grizzlies.png",
+      "point guards": [
+        {
+          "name": "M.Smart",
+          "jersey number": "36"
+        },
+        {
+          "name": "J.Morant",
+          "jersey number": "12"
+        },
+        {
+          "name": "D.Rose",
+          "jersey number": "23"
+        }
+      ],
+      "shooting guards": [
+        {
+          "name": "D.Bane",
+          "jersey number": "22"
+        },
+        {
+          "name": "L.Kennard",
+          "jersey number": "10"
+        },
+        {
+          "name": "Z.Williams",
+          "jersey number": "8"
+        }
+      ],
+      "small forwards": [
+        {
+          "name": "V.Williams Jr",
+          "jersey number": "5"
+        },
+        {
+          "name": "Y.Watanabe",
+          "jersey number": "18"
+        },
+        {
+          "name": "J.Konchar",
+          "jersey number": "46"
+        }
+      ],
+      "power forwards": [
+        {
+          "name": "S.Aldama",
+          "jersey number": "7"
+        },
+        {
+          "name": "L.Stevens",
+          "jersey number": "24"
+        },
+        {
+          "name": "G.G.Jackson",
+          "jersey number": "45"
+        }
+      ],
+      "centers": [
+        {
+          "name": "J.Jackson Jr",
+          "jersey number": "13"
+        },
+        {
+          "name": "B.Clarke",
+          "jersey number": "15"
+        }
+      ]
+    },
+    {
+      "name": "Portland Trail Blazers",
+      "logo": "/images/teams/nba/blazers.png",
+      "point guards": [
+        {
+          "name": "M.Brogdon",
+          "jersey number": "92"
+        },
+        {
+          "name": "S.Henderson",
+          "jersey number": "00"
+        },
+        {
+          "name": "D.Banton",
+          "jersey number": "45"
+        }
+      ],
+      "shooting guards": [
+        {
+          "name": "A.Simons",
+          "jersey number": "1"
+        },
+        {
+          "name": "S.Sharpe",
+          "jersey number": "17"
+        },
+        {
+          "name": "R.Rupert",
+          "jersey number": "72"
+        }
+      ],
+      "small forwards": [
+        {
+          "name": "J.Grant",
+          "jersey number": "9"
+        },
+        {
+          "name": "M.Thybulle",
+          "jersey number": "4"
+        },
+        {
+          "name": "K.Murray",
+          "jersey number": "8"
+        }
+      ],
+      "power forwards": [
+        {
+          "name": "J.Walker",
+          "jersey number": "34"
+        },
+        {
+          "name": "T.Camara",
+          "jersey number": "33"
+        }
+      ],
+      "centers": [
+        {
+          "name": "D.Ayton",
+          "jersey number": "2"
+        },
+        {
+          "name": "R.Williams",
+          "jersey number": "35"
+        }
+      ]
+    },
+    {
+      "name": "San Antonio Spurs",
+      "logo": "/images/teams/nba/spurs.png",
+      "point guards": [
+        {
+          "name": "Tre Jones",
+          "jersey number": "33"
+        },
+        {
+          "name": "D.Graham",
+          "jersey number": "4"
+        },
+        {
+          "name": "B.Wesley",
+          "jersey number": "14"
+        }
+      ],
+      "shooting guards": [
+        {
+          "name": "D.Vassell",
+          "jersey number": "24"
+        },
+        {
+          "name": "M.Branham",
+          "jersey number": "22"
+        },
+        {
+          "name": "S.Cissoko",
+          "jersey number": "25"
+        }
+      ],
+      "small forwards": [
+        {
+          "name": "J.Champagnie",
+          "jersey number": "30"
+        },
+        {
+          "name": "K.Johnson",
+          "jersey number": "3"
+        }
+      ],
+      "power forwards": [
+        {
+          "name": "J.Sochan",
+          "jersey number": "10"
+        },
+        {
+          "name": "C.Osman",
+          "jersey number": "16"
+        }
+      ],
+      "centers": [
+        {
+          "name": "V.Wembanyama",
+          "jersey number": "1"
+        },
+        {
+          "name": "Z.Collins",
+          "jersey number": "23"
+        }
+      ]
+    }
+  ],
+  "easternConference": [
+    {
+      "name": "Boston Celtics",
+      "logo": "/images/teams/nba/celtics.png",
+      "point guards": [
+        {
+          "name": "J.Holiday",
+          "jersey number": "4"
+        },
+        {
+          "name": "P.Pritchard",
+          "jersey number": "11"
+        }
+      ],
+      "shooting guards": [
+        {
+          "name": "D.White",
+          "jersey number": "9"
+        },
+        {
+          "name": "J.Springer",
+          "jersey number": "44"
+        }
+      ],
+      "small forwards": [
+        {
+          "name": "J.Brown",
+          "jersey number": "7"
+        },
+        {
+          "name": "S.Hauser",
+          "jersey number": "30"
+        },
+        {
+          "name": "J.Walsh",
+          "jersey number": "27"
+        }
+      ],
+      "power forwards": [
+        {
+          "name": "Al Horford",
+          "jersey number": "42"
+        },
+        {
+          "name": "J.Tatum",
+          "jersey number": "0"
+        },
+        {
+          "name": "O.Brissett",
+          "jersey number": "12"
+        }
+      ],
+      "centers": [
+        {
+          "name": "K.Porzingis",
+          "jersey number": "8"
+        },
+        {
+          "name": "X.Tillman",
+          "jersey number": "26"
+        },
+        {
+          "name": "L.Kornet",
+          "jersey number": "40"
+        }
+      ]
+    },
+    {
+      "name": "Milwaukee Bucks",
+      "logo": "/images/teams/nba/bucks.png",
+      "point guards": [
+        {
+          "name": "D.Lillard",
+          "jersey number": "0"
+        },
+        {
+          "name": "P.Beverley",
+          "jersey number": "21"
+        }
+      ],
+      "shooting guards": [
+        {
+          "name": "M.Beasley",
+          "jersey number": "5"
+        },
+        {
+          "name": "P.Connaughton",
+          "jersey number": "24"
+        },
+        {
+          "name": "M.Beauchamp",
+          "jersey number": "3"
+        }
+      ],
+      "small forwards": [
+        {
+          "name": "K.Middleton",
+          "jersey number": "22"
+        },
+        {
+          "name": "J.Crowder",
+          "jersey number": "99"
+        },
+        {
+          "name": "A.Jackson Jr",
+          "jersey number": "44"
+        }
+      ],
+      "power forwards": [
+        {
+          "name": "G.Antetokounmpo",
+          "jersey number": "34"
+        },
+        {
+          "name": "T.Antetokounmpo",
+          "jersey number": "43"
+        },
+        {
+          "name": "D.Gallinari",
+          "jersey number": "12"
+        }
+      ],
+      "centers": [
+        {
+          "name": "B.Lopez",
+          "jersey number": "11"
+        },
+        {
+          "name": "B.Portis",
+          "jersey number": "9"
+        }
+      ]
+    },
+    {
+      "name": "Cleveland Cavaliers",
+      "logo": "/images/teams/nba/cavaliers.png",
+      "point guards": [
+        {
+          "name": "D.Garland",
+          "jersey number": "10"
+        },
+        {
+          "name": "Ty Jerome",
+          "jersey number": "2"
+        }
+      ],
+      "shooting guards": [
+        {
+          "name": "D.Mitchell",
+          "jersey number": "45"
+        },
+        {
+          "name": "C.Levert",
+          "jersey number": "3"
+        },
+        {
+          "name": "S.Merrill",
+          "jersey number": "5"
+        }
+      ],
+      "small forwards": [
+        {
+          "name": "M.Strus",
+          "jersey number": "1"
+        },
+        {
+          "name": "I.Okoro",
+          "jersey number": "35"
+        },
+        {
+          "name": "M.Morris",
+          "jersey number": "24"
+        }
+      ],
+      "power forwards": [
+        {
+          "name": "E.Mobley",
+          "jersey number": "4"
+        },
+        {
+          "name": "G.Niang",
+          "jersey number": "20"
+        },
+        {
+          "name": "D.Wade",
+          "jersey number": "32"
+        }
+      ],
+      "centers": [
+        {
+          "name": "J.Allen",
+          "jersey number": "31"
+        },
+        {
+          "name": "D.Jones",
+          "jersey number": "30"
+        },
+        {
+          "name": "T.Thompson",
+          "jersey number": "12"
+        }
+      ]
+    },
+    {
+      "name": "New York Knicks",
+      "logo": "/images/teams/nba/knicks.png",
+      "point guards": [
+        {
+          "name": "J.Brunson",
+          "jersey number": "11"
+        },
+        {
+          "name": "M.McBride",
+          "jersey number": "2"
+        },
+        {
+          "name": "S.Milton",
+          "jersey number": "13"
+        }
+      ],
+      "shooting guards": [
+        {
+          "name": "A.Burks",
+          "jersey number": "18"
+        },
+        {
+          "name": "D.Divincenzo",
+          "jersey number": "0"
+        },
+        {
+          "name": "J.Hart",
+          "jersey number": "3"
+        }
+      ],
+      "small forwards": [
+        {
+          "name": "B.Bogdanovic",
+          "jersey number": "44"
+        },
+        {
+          "name": "D.Jeffries",
+          "jersey number": "21"
+        }
+      ],
+      "power forwards": [
+        {
+          "name": "O.G.Anunoby",
+          "jersey number": "8"
+        },
+        {
+          "name": "P.Achiuwa",
+          "jersey number": "5"
+        },
+        {
+          "name": "J.Randle",
+          "jersey number": "30"
+        }
+      ],
+      "centers": [
+        {
+          "name": "I.Hartenstein",
+          "jersey number": "55"
+        },
+        {
+          "name": "J.Sims",
+          "jersey number": "45"
+        },
+        {
+          "name": "M.Robinson",
+          "jersey number": "23"
+        }
+      ]
+    },
+    {
+      "name": "Orlando Magic",
+      "logo": "/images/teams/nba/magic.png",
+      "point guards": [
+        {
+          "name": "M.Fultz",
+          "jersey number": "20"
+        },
+        {
+          "name": "C.Anthony",
+          "jersey number": "50"
+        }
+      ],
+      "shooting guards": [
+        {
+          "name": "J.Suggs",
+          "jersey number": "4"
+        },
+        {
+          "name": "G.Harris",
+          "jersey number": "14"
+        },
+        {
+          "name": "A.Black",
+          "jersey number": "0"
+        }
+      ],
+      "small forwards": [
+        {
+          "name": "F.Wagner",
+          "jersey number": "22"
+        },
+        {
+          "name": "J.Ingles",
+          "jersey number": "7"
+        },
+        {
+          "name": "C.Houstan",
+          "jersey number": "2"
+        }
+      ],
+      "power forwards": [
+        {
+          "name": "P.Banchero",
+          "jersey number": "5"
+        },
+        {
+          "name": "J.Isaac",
+          "jersey number": "1"
+        },
+        {
+          "name": "C.Okeke",
+          "jersey number": "3"
+        }
+      ],
+      "centers": [
+        {
+          "name": "W.Carter Jr",
+          "jersey number": "34"
+        },
+        {
+          "name": "M.Wagner",
+          "jersey number": "21"
+        },
+        {
+          "name": "G.Bitadze",
+          "jersey number": "35"
+        }
+      ]
+    },
+    {
+      "name": "Indiana Pacers",
+      "logo": "/images/teams/nba/pacers.png",
+      "point guards": [
+        {
+          "name": "T.Haliburton",
+          "jersey number": "0"
+        },
+        {
+          "name": "T.J.McConnell",
+          "jersey number": "9"
+        }
+      ],
+      "shooting guards": [
+        {
+          "name": "B.Mathurin",
+          "jersey number": "00"
+        },
+        {
+          "name": "B.Sheppard",
+          "jersey number": "26"
+        },
+        {
+          "name": "A.Nembhard",
+          "jersey number": "2"
+        }
+      ],
+      "small forwards": [
+        {
+          "name": "A.Nesmith",
+          "jersey number": "23"
+        },
+        {
+          "name": "D.McDermott",
+          "jersey number": "20"
+        },
+        {
+          "name": "K.Brown",
+          "jersey number": "10"
+        }
+      ],
+      "power forwards": [
+        {
+          "name": "P.Siakam",
+          "jersey number": "43"
+        },
+        {
+          "name": "O.Toppin",
+          "jersey number": "1"
+        },
+        {
+          "name": "J.Walker",
+          "jersey number": "5"
+        }
+      ],
+      "centers": [
+        {
+          "name": "M.Turner",
+          "jersey number": "33"
+        },
+        {
+          "name": "J.Smith",
+          "jersey number": "25"
+        },
+        {
+          "name": "I.Jackson",
+          "jersey number": "22"
+        }
+      ]
+    },
+    {
+      "name": "Miami Heat",
+      "logo": "/images/teams/nba/heat.png",
+      "point guards": [
+        {
+          "name": "T.Rozier",
+          "jersey number": "2"
+        },
+        {
+          "name": "D.Wright",
+          "jersey number": "4"
+        },
+        {
+          "name": "P.Mills",
+          "jersey number": "88"
+        }
+      ],
+      "shooting guards": [
+        {
+          "name": "T.Herro",
+          "jersey number": "14"
+        },
+        {
+          "name": "D.Robinson",
+          "jersey number": "55"
+        }
+      ],
+      "small forwards": [
+        {
+          "name": "J.Butler",
+          "jersey number": "22"
+        },
+        {
+          "name": "J.Jaquez Jr",
+          "jersey number": "11"
+        },
+        {
+          "name": "C.Martin",
+          "jersey number": "16"
+        }
+      ],
+      "power forwards": [
+        {
+        "name": "N.Jovic",
+        "jersey number": "5"
+        },
+        {
+          "name": "K.Love",
+          "jersey number": "42"
+        },
+        {
+        "name": "H.Highsmith",
+        "jersey number": "24"
+        }
+      ],
+      "centers": [
+        {
+          "name": "B.Adebayo",
+          "jersey number": "13"
+        },
+        {
+          "name": "O.Robinson",
+          "jersey number": "25"
+        },
+        {
+          "name": "T.Bryant",
+          "jersey number": "31"
+        }
+      ]
+    },
+    {
+      "name": "Philadelphia 76ers",
+      "logo": "/images/teams/nba/76ers.png",
+      "point guards": [
+        {
+          "name": "K.Lowry",
+          "jersey number": "7"
+        },
+        {
+          "name": "C.Payne",
+          "jersey number": "22"
+        }
+      ],
+      "shooting guards": [
+        {
+          "name": "T.Maxey",
+          "jersey number": "0"
+        },
+        {
+          "name": "D.Melton",
+          "jersey number": "8"
+        }
+      ],
+      "small forwards": [
+        {
+          "name": "B.Hield",
+          "jersey number": "17"
+        },
+        {
+          "name": "K.Oubre",
+          "jersey number": "9"
+        },
+        {
+          "name": "R.Covington",
+          "jersey number": "33"
+        }
+      ],
+      "power forwards": [
+        {
+          "name": "T.Harris",
+          "jersey number": "12"
+        },
+        {
+          "name": "N.Batum",
+          "jersey number": "40"
+        },
+        {
+          "name": "K.J.Martin Jr",
+          "jersey number": "1"
+        }
+      ],
+      "centers": [
+        {
+          "name": "J.Embiid",
+          "jersey number": "21"
+        },
+        {
+          "name": "Mo Bamba",
+          "jersey number": "5"
+        },
+        {
+          "name": "P.Reed",
+          "jersey number": "44"
+        }
+      ]
+    },
+    {
+      "name": "Chicago Bulls",
+      "logo": "/images/teams/nba/bulls.png",
+      "point guards": [
+        {
+          "name": "C.White",
+          "jersey number": "0"
+        },
+        {
+          "name": "J.Carter",
+          "jersey number": "5"
+        },
+        {
+          "name": "L.Ball",
+          "jersey number": "2"
+        }
+      ],
+      "shooting guards": [
+        {
+          "name": "A.Dosunmu",
+          "jersey number": "12"
+        },
+        {
+          "name": "A.Caruso",
+          "jersey number": "6"
+        }
+      ],
+      "small forwards": [
+        {
+          "name": "Z.Lavine",
+          "jersey number": "8"
+        },
+        {
+          "name": "J.Phillips",
+          "jersey number": "15"
+        },
+        {
+          "name": "D.Terry",
+          "jersey number": "25"
+        }
+      ],
+      "power forwards": [
+        {
+          "name": "D.DeRozan",
+          "jersey number": "11"
+        },
+        {
+          "name": "T.Craig",
+          "jersey number": "13"
+        },
+        {
+          "name": "P.Williams",
+          "jersey number": "44"
+        }
+      ],
+      "centers": [
+        {
+          "name": "N.Vucevic",
+          "jersey number": "9"
+        },
+        {
+          "name": "A.Drummond",
+          "jersey number": "3"
+        },
+        {
+          "name": "T.Taylor",
+          "jersey number": "32"
+        }
+      ]
+    },
+    {
+      "name": "Atlanta Hawks",
+      "logo": "/images/teams/nba/hawks.png",
+      "point guards": [
+        {
+          "name": "T.Young",
+          "jersey number": "11"
+        },
+        {
+          "name": "T.Forrest",
+          "jersey number": "2"
+        },
+        {
+          "name": "K.Bufkin",
+          "jersey number": "4"
+        }
+      ],
+      "shooting guards": [
+        {
+          "name": "D.Murray",
+          "jersey number": "5"
+        },
+        {
+          "name": "B.Bogdanovic",
+          "jersey number": "13"
+        },
+        {
+          "name": "W.Matthews",
+          "jersey number": "32"
+        }
+      ],
+      "small forwards": [
+        {
+          "name": "S.Bey",
+          "jersey number": "41"
+        },
+        {
+          "name": "A.J.Griffin",
+          "jersey number": "14"
+        },
+        {
+          "name": "G.Matthews",
+          "jersey number": "25"
+        }
+      ],
+      "power forwards": [
+        {
+          "name": "J.Johnson",
+          "jersey number": "1"
+        },
+        {
+          "name": "D.Hunter",
+          "jersey number": "12"
+        }
+      ],
+      "centers": [
+        {
+          "name": "C.Capela",
+          "jersey number": "15"
+        },
+        {
+          "name": "O.Okongwu",
+          "jersey number": "17"
+        },
+        {
+          "name": "B.Fernando",
+          "jersey number": "24"
+        }
+      ]
+    },
+    {
+      "name": "Brooklyn Nets",
+      "logo": "/images/teams/nba/nets.png",
+      "point guards": [
+        {
+          "name": "D.Schroder",
+          "jersey number": "17"
+        },
+        {
+          "name": "D.Smith Jr",
+          "jersey number": "4"
+        },
+        {
+          "name": "B.Simmons",
+          "jersey number": "10"
+        }
+      ],
+      "shooting guards": [
+        {
+          "name": "C.Thomas",
+          "jersey number": "24"
+        },
+        {
+          "name": "L.Walker",
+          "jersey number": "8"
+        },
+        {
+          "name": "D.Whitehead",
+          "jersey number": "0"
+        }
+      ],
+      "small forwards": [
+        {
+          "name": "M.Bridges",
+          "jersey number": "1"
+        },
+        {
+          "name": "J.Wilson",
+          "jersey number": "22"
+        },
+        {
+          "name": "K.Bates-Diop",
+          "jersey number": "13"
+        }
+      ],
+      "power forwards": [
+        {
+          "name": "C.Johnson",
+          "jersey number": "2"
+        },
+        {
+          "name": "D.Finney-Smith",
+          "jersey number": "28"
+        },
+        {
+          "name": "T.Watford",
+          "jersey number": "9"
+        }
+      ],
+      "centers": [
+        {
+          "name": "N.Claxton",
+          "jersey number": "33"
+        },
+        {
+          "name": "D.Sharpe",
+          "jersey number": "20"
+        },
+        {
+          "name": "N.Clowney",
+          "jersey number": "21"
+        }
+      ]
+    },
+    {
+      "name": "Toronto Raptors",
+      "logo": "/images/teams/nba/raptors.png",
+      "point guards": [
+        {
+          "name": "I.Quickley",
+          "jersey number": "5"
+        },
+        {
+          "name": "J.Freeman",
+          "jersey number": "0"
+        },
+        {
+          "name": "J.Ramsey",
+          "jersey number": "37"
+        }
+      ],
+      "shooting guards": [
+        {
+          "name": "G.Trent Jr",
+          "jersey number": "33"
+        },
+        {
+          "name": "G.Dick",
+          "jersey number": "1"
+        },
+        {
+          "name": "G.Temple",
+          "jersey number": "14"
+        }
+      ],
+      "small forwards": [
+        {
+          "name": "B.Brown",
+          "jersey number": "11"
+        },
+        {
+          "name": "R.J.Barret",
+          "jersey number": "9"
+        },
+        {
+          "name": "O.Agbaji",
+          "jersey number": "30"
+        }
+      ],
+      "power forwards": [
+        {
+          "name": "S.Barnes",
+          "jersey number": "4"
+        },
+        {
+          "name": "J.Nwora",
+          "jersey number": "13"
+        },
+        {
+          "name": "J.McDaniels",
+          "jersey number": "2"
+        }
+      ],
+      "centers": [
+        {
+          "name": "J.Poeltl",
+          "jersey number": "19"
+        },
+        {
+          "name": "K.Ollynyk",
+          "jersey number": "41"
+        }
+      ]
+    },
+    {
+      "name": "Charlotte Hornets",
+      "logo": "/images/teams/nba/hornets.png",
+      "point guards": [
+        {
+          "name": "L.Ball",
+          "jersey number": "1"
+        },
+        {
+          "name": "V.Micic",
+          "jersey number": "22"
+        },
+        {
+          "name": "T.Mann",
+          "jersey number": "23"
+        }
+      ],
+      "shooting guards": [
+        {
+          "name": "B.Miller",
+          "jersey number": "24"
+        },
+        {
+          "name": "C.Martin",
+          "jersey number": "11"
+        },
+        {
+          "name": "S.Curry",
+          "jersey number": "14"
+        }
+      ],
+      "small forwards": [
+        {
+          "name": "M.Bridges",
+          "jersey number": "0"
+        },
+        {
+          "name": "N.Smith Jr",
+          "jersey number": "8"
+        },
+        {
+          "name": "B.McGowens",
+          "jersey number": "7"
+        }
+      ],
+      "power forwards": [
+        {
+          "name": "G.Williams",
+          "jersey number": "2"
+        },
+        {
+          "name": "J.T.Thor",
+          "jersey number": "21"
+        },
+        {
+          "name": "A.Pokusevski",
+          "jersey number": "17 "
+        }
+      ],
+      "centers": [
+        {
+          "name": "N.Richards",
+          "jersey number": "4"
+        },
+        {
+          "name": "M.Williams",
+          "jersey number": "5"
+        }
+      ]
+    },
+    {
+      "name": "Detroit Pistons",
+      "logo": "/images/teams/nba/pistons.png",
+      "point guards": [
+        {
+          "name": "C.Cunningham",
+          "jersey number": "2"
+        },
+        {
+          "name": "M.Sasser",
+          "jersey number": "25"
+        },
+        {
+          "name": "M.Flynn",
+          "jersey number": "14"
+        }
+      ],
+      "shooting guards": [
+        {
+          "name": "J.Ivey",
+          "jersey number": "23"
+        },
+        {
+          "name": "Q.Grimes",
+          "jersey number": "24"
+        },
+        {
+          "name": "E.Fournier",
+          "jersey number": "31"
+        }
+      ],
+      "small forwards": [
+        {
+          "name": "A.Thompson",
+          "jersey number": "9"
+        },
+        {
+          "name": "S.Fontecchio",
+          "jersey number": "19"
+        },
+        {
+          "name": "S.Umude",
+          "jersey number": "17"
+        }
+      ],
+      "power forwards": [
+        {
+          "name": "I.Stewart",
+          "jersey number": "28"
+        },
+        {
+          "name": "T.Brown",
+          "jersey number": "7"
+        }
+      ],
+      "centers": [
+        {
+          "name": "J.Duren",
+          "jersey number": "0"
+        },
+        {
+          "name": "J.Wiseman",
+          "jersey number": "13"
+        },
+        {
+          "name": "T.Gibson",
+          "jersey number": "67"
+        }
+      ]
+    },
+    {
+      "name": "Washington Wizards",
+      "logo": "/images/teams/nba/wizards.png",
+      "point guards": [
+        {
+          "name": "T.Jones",
+          "jersey number": "5"
+        },
+        {
+          "name": "J.Poole",
+          "jersey number": "13"
+        }
+      ],
+      "shooting guards": [
+        {
+          "name": "L.Shamet",
+          "jersey number": "20"
+        },
+        {
+          "name": "J.Davis",
+          "jersey number": "1"
+        },
+        {
+          "name": "D.Avdija",
+          "jersey number": "8"
+        }
+      ],
+      "small forwards": [
+        {
+          "name": "B.Coulibaly",
+          "jersey number": "0"
+        },
+        {
+          "name": "I.Rivers",
+          "jersey number": "12"
+        },
+        {
+          "name": "C.Kispert",
+          "jersey number": "24"
+        }
+      ],
+      "power forwards": [
+        {
+          "name": "K.Kuzma",
+          "jersey number": "33"
+        },
+        {
+          "name": "P.Baldwin Jr",
+          "jersey number": "7"
+        },
+        {
+          "name": "E.Omoruyi",
+          "jersey number": "97"
+        }
+      ],
+      "centers": [
+        {
+          "name": "M.Bagley III",
+          "jersey number": "35"
+        },
+        {
+          "name": "R.Holmes",
+          "jersey number": "22"
+        },
+        {
+          "name": "A.Gill",
+          "jersey number": "16"
+        }
+      ]
+    }
+  ]
+}

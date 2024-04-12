@@ -1,7 +1,7 @@
 import { Routes } from '@angular/router';
-import {LandingComponent} from "./landing/landing.component";
-import {LoginFormularyComponent} from "./login-formulary/login-formulary.component";
-import {RegisterFormularyComponent} from "./register-formulary/register-formulary.component";
+import {LandingComponent} from "./pages/landing/landing.component";
+import {LoginFormularyComponent} from "./pages/login-formulary/login-formulary.component";
+import {RegisterFormularyComponent} from "./pages/register-formulary/register-formulary.component";
 
 export const routes: Routes = [
   { path: '', redirectTo: '/landing', pathMatch: 'full' },
