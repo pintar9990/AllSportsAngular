@@ -7,16 +7,16 @@
 
 .forms {
   text-align: center;
-  width: 300px; /* Ancho específico para el formulario */
-  margin: auto; /* Centra el formulario en la página */
+  width: 300px;
+  margin: auto;
 }
 
 .forms > p {
-  position: relative; /* Establece una posición relativa para los elementos dentro de <p> */
+  position: relative;
   display: flex;
   flex-direction: row;
-  align-items: center; /* Alinea los elementos al inicio */
-  min-height: 50px; /* Altura mínima para contener el campo de texto y el botón */
+  align-items: center;
+  min-height: 50px;
 }
 
 input[type=text], input[type=email], input[type=password], input[type=submit] {
@@ -29,13 +29,13 @@ input[type=text], input[type=email], input[type=password], input[type=submit] {
 }
 
 input[type=text], input[type=email], input[type=password] {
-  width: calc(100% - 22px); /* Ajusta el ancho para tener en cuenta el relleno y el borde */
+  width: calc(100% - 22px);
 }
 
 input[type=submit] {
   background-color: var(--main-color);
-  width: 100%; /* Asegura que el botón "Iniciar Sesión" ocupe el ancho completo */
-  margin-top: 10px; /* Añade un margen superior para separarlo del campo de contraseña */
+  width: 100%;
+  margin-top: 10px;
 }
 
 .forms > p > button {
@@ -48,65 +48,69 @@ input[type=submit] {
   border-radius: 0.75em;
 }
 
-/* Ajustes para el botón "Mostrar" */
 .forms > p > input[type="password"] {
-  width: calc(100% - 80px); /* Ajusta el ancho para dejar espacio para el botón "Mostrar" */
+  width: calc(100% - 80px);
 }
 
 .forms > p > button#toggleButton {
-  position: absolute; /* Posiciona el botón "Mostrar" de forma absoluta */
-  right: 10px; /* Alinea el botón más a la derecha del campo de contraseña */
-  top: 5px; /* Alinea el botón a la misma altura del campo de contraseña */
-  height: 38px; /* Ajusta la altura para alinear con el campo de contraseña */
-  padding: 10px 15px; /* Ajusta el relleno según sea necesario */
-  margin: 0; /* Elimina el margen para alinear correctamente con el campo de contraseña */
+  position: absolute;
+  right: 10px;
+  top: 5px;
+  height: 38px;
+  padding: 10px 15px;
+  margin: 0;
 }
-/* Media query para pantallas grandes */
+
+/* Estilos para mensajes de error */
+.error {
+  color: var(--white-color); /* Cambiado a color blanco */
+  margin-top: 5px;
+}
+
 @media (max-width: 1440px) {
   .title2 {
-    font-size: 3.5em; /* Ligeramente más pequeño para pantallas grandes */
-    margin-bottom: 0.5em; /* Menos espacio debajo del título */
+    font-size: 3.5em;
+    margin-bottom: 0.5em;
   }
 
   .forms {
-    width: 80%; /* El formulario ocupa el 80% del ancho en pantallas grandes */
-    max-width: 500px; /* Ancho máximo para el formulario */
+    width: 80%;
+    max-width: 500px;
   }
 
   input[type=text], input[type=email], input[type=password] {
-    width: calc(100% - 20px); /* Ajusta el ancho para pantallas grandes */
+    width: calc(100% - 20px);
   }
 
   .forms > p > input[type="password"] {
-    width: calc(100% - 70px); /* Ajusta el ancho para dejar espacio para el botón "Mostrar" */
+    width: calc(100% - 70px);
   }
 
   .forms > p > button#toggleButton {
-    right: 15px; /* Alinea el botón "Mostrar" un poco más a la derecha */
-    padding: 10px 10px; /* Ajusta el relleno para pantallas grandes */
+    right: 15px;
+    padding: 10px 10px;
   }
 }
 
-/* Media query para dispositivos móviles */
 @media (max-width: 360px) {
   .forms {
-    width: 100%; /* El formulario ocupa el ancho completo en dispositivos móviles */
-    padding: 0 20px; /* Añade relleno a los lados para no tocar los bordes de la pantalla */
+    width: 100%;
+    padding: 0 20px;
   }
 
   .title2 {
-    font-size: 2em; /* Reduce el tamaño del título para dispositivos móviles */
+    font-size: 2em;
   }
 
   input[type=text], input[type=email], input[type=password] {
-    width: calc(100% - 22px); /* Ajusta el ancho para dispositivos móviles */
+    width: calc(100% - 22px);
   }
 
   .forms > p > input[type="password"] {
-    width: calc(100% - 90px); /* Deja espacio para el botón "Mostrar" en dispositivos móviles */
+    width: calc(100% - 90px);
   }
 
   .forms > p > button#toggleButton {
-    right: 20px; /* Alinea el botón "Mostrar" más a la derecha en dispositivos móviles */
+    right: 20px;
   }
 }
