@@ -1,8 +1,8 @@
-import {Player} from "../player/Player";
+import {Player} from "../player/player";
 
 export interface FootballTeam{
   name: string;
-  logo_src: string;
+  logo: string;
   goalkeepers: Player[];
   defenders: Player[];
   midfielders: Player[];

@@ -1,8 +1,8 @@
-import {Player} from "../player/Player";
+import {Player} from "../player/player";
 
 export interface BasketballTeam {
   name: string;
-  logo_src: string;
+  logo: string;
   point_guards: Player[];
   shooting_guards: Player[];
   small_forwards: Player[];

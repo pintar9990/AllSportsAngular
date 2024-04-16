@@ -1,12 +1,12 @@
 {
   "name": "Premier League",
-  "logo": "/images/leagues/logo/premier-league.png",
-  "art": "/images/leagues/arts/premier-league.png",
+  "logo": "assets/images/leagues/logo/premier-league.png",
+  "art": "assets/images/leagues/arts/premier-league.png",
   "standings": "/images/leagues/standings/standingsPremier.png",
   "teams": [
     {
       "name": "Arsenal FC",
-      "logo": "/images/teams/premier/arsenal.png",
+      "logo": "assets/images/teams/premier/arsenal.png",
       "goalkeepers": [
         {
           "name": "D.Raya",
@@ -74,7 +74,7 @@
     },
     {
       "name": "Liverpool",
-      "logo": "/images/teams/premier/liverpool.png",
+      "logo": "assets/images/teams/premier/liverpool.png",
       "goalkeepers": [
         {
           "name": "A.Becker",
@@ -142,7 +142,7 @@
     },
     {
       "name": "Manchester City",
-      "logo": "/images/teams/premier/manchester-city.png",
+      "logo": "assets/images/teams/premier/manchester-city.png",
       "goalkeepers": [
         {
           "name": "Ederson",
@@ -210,7 +210,7 @@
     },
     {
       "name": "Aston Villa",
-      "logo": "/images/teams/premier/aston-villa.png",
+      "logo": "assets/images/teams/premier/aston-villa.png",
       "goalkeepers": [
         {
           "name": "E.Martinez",
@@ -278,7 +278,7 @@
     },
     {
       "name": "Tottenham",
-      "logo": "/images/teams/premier/tottenham.png",
+      "logo": "assets/images/teams/premier/tottenham.png",
       "goalkeepers": [
         {
           "name": "G.Vicario",
@@ -346,7 +346,7 @@
     },
     {
       "name": "Manchester United",
-      "logo": "/images/teams/premier/manchester-united.png",
+      "logo": "assets/images/teams/premier/manchester-united.png",
       "goalkeepers": [
         {
           "name": "A.Onana",
@@ -414,7 +414,7 @@
     },
     {
       "name": "West Ham",
-      "logo": "/images/teams/premier/west-ham.png",
+      "logo": "assets/images/teams/premier/west-ham.png",
       "goalkeepers": [
         {
           "name": "A.Areola",
@@ -482,7 +482,7 @@
     },
     {
       "name": "Brighton",
-      "logo": "/images/teams/premier/brighton.png",
+      "logo": "assets/images/teams/premier/brighton.png",
       "goalkeepers": [
         {
           "name": "S.Steele",
@@ -550,7 +550,7 @@
     },
     {
       "name": "Wolverhampton",
-      "logo": "/images/teams/premier/wolverhampton.png",
+      "logo": "assets/images/teams/premier/wolverhampton.png",
       "goalkeepers": [
         {
           "name": "J.Sá",
@@ -618,7 +618,7 @@
     },
     {
       "name": "Newcastle",
-      "logo": "/images/teams/premier/newcastle.png",
+      "logo": "assets/images/teams/premier/newcastle.png",
       "goalkeepers": [
         {
           "name": "M.Dubravka",
@@ -686,7 +686,7 @@
     },
     {
       "name": "Chelsea",
-      "logo": "/images/teams/premier/chelsea.png",
+      "logo": "assets/images/teams/premier/chelsea.png",
       "goalkeepers": [
         {
           "name": "R.Sanchez",
@@ -754,7 +754,7 @@
     },
     {
       "name": "Fulham",
-      "logo": "/images/teams/premier/fulham.png",
+      "logo": "assets/images/teams/premier/fulham.png",
       "goalkeepers": [
         {
           "name": "B.leno",
@@ -822,7 +822,7 @@
     },
     {
       "name": "Bournemouth",
-      "logo": "/images/teams/premier/bournemouth.png",
+      "logo": "assets/images/teams/premier/bournemouth.png",
       "goalkeepers": [
         {
           "name": "Neto",
@@ -890,7 +890,7 @@
     },
     {
       "name": "Crystal Palace",
-      "logo": "/images/teams/premier/crystal-palace.png",
+      "logo": "assets/images/teams/premier/crystal-palace.png",
       "goalkeepers": [
         {
           "name": "S.Jhonstone",
@@ -958,7 +958,7 @@
     },
     {
       "name": "Brentford",
-      "logo": "/images/teams/premier/brentford.png",
+      "logo": "assets/images/teams/premier/brentford.png",
       "goalkeepers": [
         {
           "name": "M.Flekken",
@@ -1026,7 +1026,7 @@
     },
     {
       "name": "Everton",
-      "logo": "/images/teams/premier/everton.png",
+      "logo": "assets/images/teams/premier/everton.png",
       "goalkeepers": [
         {
           "name": "J.Pickford",
@@ -1094,7 +1094,7 @@
     },
     {
       "name": "Nottingham Forest",
-      "logo": "/images/teams/premier/nottingham-forest.png",
+      "logo": "assets/images/teams/premier/nottingham-forest.png",
       "goalkeepers": [
         {
           "name": "M.Turner",
@@ -1162,7 +1162,7 @@
     },
     {
       "name": "Luton Town",
-      "logo": "/images/teams/premier/luton.png",
+      "logo": "assets/images/teams/premier/luton.png",
       "goalkeepers": [
         {
           "name": "T.Kaminiski",
@@ -1230,7 +1230,7 @@
     },
     {
       "name": "Burnley",
-      "logo": "/images/teams/premier/burnley.png",
+      "logo": "assets/images/teams/premier/burnley.png",
       "goalkeepers": [
         {
           "name": "J.Trafford",
@@ -1298,7 +1298,7 @@
     },
     {
       "name": "Sheffield United",
-      "logo": "/images/teams/premier/sheffield.png",
+      "logo": "assets/images/teams/premier/sheffield.png",
       "goalkeepers": [
         {
           "name": "W.Foderingham",

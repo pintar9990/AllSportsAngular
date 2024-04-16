@@ -1,10 +1,11 @@
-/* You can add global styles to this file, and also import other style files */
 :root {
   --bg-color: #474e52;
-  --white-color: #fff;
   --main-color: #0f0;
-  --buttons-bg-color: #928C99;
-  --header-color: #24282B;
+  --white-color: #fff;
+  --black-color: #000;
+  --gray-color: #00000080;
+  --gray2-color: #000000F0;
+  --forest-green-color: #00ff0080;
 }
 
 body {
