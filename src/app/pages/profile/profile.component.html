@@ -1,0 +1,40 @@
+<!-- divider-container.component.html -->
+<div class="divider-container">
+  <div class="side-left">
+    <section>
+      <h1 class="subtitle">Mis Ligas</h1>
+      <div class="favourite-leagues">
+        <button (click)="navigateToLeagues()">
+          <img alt="La Liga" src="/assets/images/leagues/arts/laliga.png">
+        </button>
+        <button (click)="navigateToLeagues()">
+          <img alt="LEC" src="/assets/images/leagues/arts/lec.png">
+        </button>
+      </div>
+    </section>
+    <section>
+      <h1 class="subtitle">Mis Equipos</h1>
+      <div class="favourite-teams">
+        <button (click)="navigateToClub()">
+          <img src="/assets/images/teams/laliga/madrid.png" alt="Image 1">
+        </button>
+        <button (click)="navigateToClub()">
+          <img src="/assets/images/teams/lec/fnatic.png" alt="Image 3">
+        </button>
+        <button (click)="navigateToClub()">
+          <img src="/assets/images/teams/premier/manchester-united.png" alt="Image 5">
+        </button>
+      </div>
+    </section>
+  </div>
+  <div class="side-right">
+    <section>
+      <div class="profile">
+        <h1 class="subtitle" id="username">Username</h1>
+        <img src="/assets/images/components/generic-avatar.png" alt="Perfil" id="profile-picture">
+        <p class="email-text" id="email">Example&#64;gmail.com</p>
+        <button (click)="navigateToEditComponent()">Configurar perfil</button>
+      </div>
+    </section>
+  </div>
+</div>

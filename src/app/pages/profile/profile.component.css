@@ -1,0 +1,163 @@
+.favourite-leagues {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 3em;
+  margin: 2em;
+}
+
+.favourite-leagues > button > img {
+  width: 100%;
+  height: auto;
+  border-radius: 1.5em;
+  aspect-ratio: 0.5;
+
+}
+
+.favourite-leagues > button {
+  background: none;
+  border: none;
+}
+
+.favourite-leagues > button > img:hover {
+  transform: scale(1.05);
+  transition: transform 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.favourite-teams {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 1em;
+  margin: 2em;
+}
+
+.favourite-teams > button {
+  background: none;
+  border: none;
+}
+
+.favourite-teams > button > img {
+  display: inline-block;
+  width: 90%;
+  height: auto;
+  aspect-ratio: 1/1;
+}
+
+.favourite-teams > button > img:hover {
+  transform: scale(1.1);
+  transition: transform 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.divider-container {
+  display: flex; /* Utilizamos flexbox para dividir la ventana */
+  height: 100vh; /* La altura de la ventana */
+}
+
+.side-right, .side-left {
+  flex: 1; /* Cada mitad ocupará el 50% del espacio disponible */
+  display: inline-block;
+  justify-content: center;
+}
+
+.profile {
+  text-align: center;
+}
+
+.profile > img {
+  max-height: 30em;
+  width: auto;
+}
+
+.profile > button{
+  color: var(--white-color); /* Color de las letras del botón */
+  background-color: var(--main-color); /* Color de fondo del botón */
+  padding: 10px; /* Espacio entre el texto y el borde del botón */
+  border: none; /* Elimina el borde del botón */
+  cursor: pointer; /* Esto cambia el cursor a una mano cuando se pasa por encima del botón */
+  border-radius: 0.5em;
+  font-size: 1em;
+}
+
+.email-text {
+  color: var(--white-color);
+  font-size: 1.5em;
+  margin-top: 0.75em;
+  margin-bottom: 1em;
+}
+
+/* Ajustes para los títulos de las secciones */
+.subtitle {
+  color: white; /* Cambia el color del texto a blanco */
+  font-size: 1.5em; /* Aumenta el tamaño del texto */
+}
+
+/* Ajustes para el nombre de usuario */
+#username {
+  color: white; /* Cambia el color del texto a blanco */
+  font-size: 1.5em; /* Aumenta el tamaño del texto */
+}
+
+/* Si necesitas que los botones también tengan texto blanco, puedes agregar esto: */
+button {
+  color: white; /* Cambia el color del texto a blanco */
+}
+
+
+/* Media query para resoluciones de hasta 1440px */
+@media (max-width: 1440px) {
+  .divider-container {
+    flex-direction: column; /* Cambia la dirección del flex a columna */
+  }
+
+  .side-left, .side-right {
+    width: 100%; /* Ajusta el ancho al 100% para que ocupen toda la fila */
+  }
+}
+
+@media (max-width: 360px) {
+  .divider-container {
+    display: block; /* Cambia el contenedor a un bloque estándar */
+  }
+
+  .side-left, .side-right {
+    width: 100%; /* Ajusta el ancho al 100% */
+    display: block; /* Asegura que cada lado se muestre como un bloque */
+  }
+
+  .profile {
+    display: block; /* Asegura que el perfil se muestre como un bloque */
+    text-align: center; /* Centra el contenido del perfil */
+    margin-top: 0; /* Asegura que no haya margen en la parte superior */
+  }
+
+  .profile > img {
+    max-width: 80%; /* Ajusta el tamaño de la imagen de perfil */
+    margin: 0 auto; /* Centra la imagen de perfil */
+  }
+
+  .profile > button {
+    display: block; /* Muestra el botón debajo de la imagen de perfil */
+    margin: 1em auto; /* Centra el botón debajo de la imagen de perfil */
+  }
+
+  .email-text {
+    display: none; /* Oculta el texto del correo electrónico */
+  }
+
+  .favourite-leagues, .favourite-teams {
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    gap: 0.5em;
+    margin: 1em;
+  }
+
+  .divider-container {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .side-right {
+    order: -1; /* Esto hará que el bloque side-right se muestre primero */
+
+  }
+}
