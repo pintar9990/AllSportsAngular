@@ -1,0 +1,20 @@
+.teams {
+  display: inline-block;
+}
+
+.teams > button {
+  background: none;
+  border: none;
+}
+
+.teams > button > img:hover {
+  transform: scale(1.1);
+  transition: transform 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.teams button > img {
+  width: 10em;
+  height: 10em;
+  aspect-ratio: 16/9;
+}

@@ -1,0 +1,12 @@
+<div *ngIf="league">
+  <h2>{{ league.name }}</h2>
+</div>
+
+
+<div *ngIf="teams">
+  <div class="teams" *ngFor="let team of teams">
+    <button>
+      <img src="{{ team.logo }}">
+    </button>
+  </div>
+</div>
