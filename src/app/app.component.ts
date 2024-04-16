@@ -4,6 +4,7 @@ import {LandingComponent} from "./pages/landing/landing.component";
 import {HeaderComponent} from "./components/header/header.component";
 import {LoginFormularyComponent} from "./pages/login-formulary/login-formulary.component";
 import {RegisterFormularyComponent} from "./pages/register-formulary/register-formulary.component";
+import {ClubComponent} from "./pages/club/club.component";
 
 @Component({
   selector: 'app-root',
@@ -12,7 +13,8 @@ import {RegisterFormularyComponent} from "./pages/register-formulary/register-fo
     LandingComponent,
     HeaderComponent,
     LoginFormularyComponent,
-    RegisterFormularyComponent
+    RegisterFormularyComponent,
+    ClubComponent
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
