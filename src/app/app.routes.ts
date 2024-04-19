@@ -5,7 +5,7 @@ import {RegisterFormularyComponent} from "./pages/register-formulary/register-fo
 import {PremierLeagueComponent} from "./pages/premier-league/premier-league.component";
 
 export const routes: Routes = [
-  { path: '', redirectTo: '/premier', pathMatch: 'full' },
+  { path: '', redirectTo: '/landing', pathMatch: 'full' },
   { path: 'premier', component: PremierLeagueComponent },
   { path: 'landing', component: LandingComponent },
   { path: 'login', component: LoginFormularyComponent },
