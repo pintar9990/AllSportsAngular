@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { CommonModule } from '@angular/common';
+import {CommonModule, NgOptimizedImage} from '@angular/common';
 import { FootballLeague } from "../../models/leagues/football-league";
 import {FootballLeagueLoadFromJSONService} from "../../services/football-league-load-from-json.service";
 import {FootballTeam} from "../../models/teams/football-team";
@@ -10,12 +10,12 @@ import {FootballTeam} from "../../models/teams/football-team";
   templateUrl: './premier-league.component.html',
   standalone: true,
   styleUrls: ['./premier-league.component.css'],
-  imports: [CommonModule]
+  imports: [CommonModule, NgOptimizedImage]
 })
 export class PremierLeagueComponent implements OnInit{
 
-  league: any;
   jsonUrl = 'assets/premier.json';
+  league?: FootballLeague;
   teams?: FootballTeam[];
 
   constructor(private dataService: FootballLeagueLoadFromJSONService) { }
@@ -24,14 +24,14 @@ export class PremierLeagueComponent implements OnInit{
     this.loadLeague();
   }
 
-  loadLeague() {
+  private loadLeague() {
     this.dataService.getLeague(this.jsonUrl).subscribe((data: FootballLeague) => {
       this.league = data;
-      this.loadTeams();
+      this.teams = this.league.teams;
     });
+    this.sortTeamsByStandings();
   }
-
-  loadTeams() {
-    this.teams = this.league.teams;
+  private sortTeamsByStandings(){
+    this.teams?.sort((teamA, teamB) => parseInt(String(teamA.position)) - parseInt(String(teamB.position)));
   }
 }

@@ -1,12 +1,17 @@
 <div *ngIf="league">
-  <h2>{{ league.name }}</h2>
+  <img src="{{ league.logo }}" alt=" {{league.name}}">
 </div>
 
+<div *ngIf="teams">
+  <ol class="teams" *ngFor="let team of teams">
+    {{ team.position }} - {{ team.name }}
+  </ol>
+</div>
 
 <div *ngIf="teams">
   <div class="teams" *ngFor="let team of teams">
     <button>
-      <img src="{{ team.logo }}">
+      <img src="{{ team.logo }}" alt=" {{team.name}}">
     </button>
   </div>
 </div>

@@ -2,7 +2,6 @@
   "name": "La Liga EA Sports",
   "logo": "/images/leagues/logo/laliga.png",
   "art": "/images/leagues/arts/laliga.png",
-  "standings": "/images/leagues/standings/standingsLaliga.png",
   "teams": [
     {
       "name": "FC Barcelona",
