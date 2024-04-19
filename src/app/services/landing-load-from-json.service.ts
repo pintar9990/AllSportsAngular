@@ -8,7 +8,7 @@ import {Observable} from "rxjs";
 @Injectable({
   providedIn: 'root'
 })
-export class LandingLoadFromJsonService {
+export class LandingLoadFromJSONService {
 
   constructor(private http: HttpClient) { }
 
