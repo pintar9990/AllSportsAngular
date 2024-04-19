@@ -28,8 +28,8 @@ export class PremierLeagueComponent implements OnInit{
     this.dataService.getLeague(this.jsonUrl).subscribe((data: FootballLeague) => {
       this.league = data;
       this.teams = this.league.teams;
-    });
-    this.sortTeamsByStandings();
+      this.sortTeamsByStandings();
+    })
   }
   private sortTeamsByStandings(){
     this.teams?.sort((teamA, teamB) => parseInt(String(teamA.position)) - parseInt(String(teamB.position)));

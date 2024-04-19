@@ -2,7 +2,12 @@
   <img src="{{ league.logo }}" alt=" {{league.name}}">
 </div>
 
+<div class="star">
+
+</div>
+
 <div *ngIf="teams">
+  <h1> Clasificacion </h1>
   <ol class="teams" *ngFor="let team of teams">
     {{ team.position }} - {{ team.name }}
   </ol>
