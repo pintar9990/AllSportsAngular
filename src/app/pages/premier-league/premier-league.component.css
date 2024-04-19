@@ -18,3 +18,20 @@
   height: 10em;
   aspect-ratio: 16/9;
 }
+
+.team-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.team-table td {
+  padding: 8px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.team-logo {
+  width: 50px; /* O el tamaño que prefieras */
+  height: auto;
+  vertical-align: middle;
+}

@@ -7,11 +7,16 @@
 </div>
 
 <div *ngIf="teams">
-  <h1> Clasificacion </h1>
-  <ol class="teams" *ngFor="let team of teams">
-    {{ team.position }} - {{ team.name }}
-  </ol>
+  <table class="team-table">
+    <tr *ngFor="let team of teams">
+      <td>{{ team.position }} - {{ team.name }}</td>
+      <td>
+        <img src="{{ team.logo }}" alt="{{ team.name }}" class="team-logo">
+      </td>
+    </tr>
+  </table>
 </div>
+
 
 <div *ngIf="teams">
   <div class="teams" *ngFor="let team of teams">
