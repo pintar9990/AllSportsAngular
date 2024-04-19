@@ -1,51 +1,106 @@
 <header>
-  <button class="header-logo" (click)="landing()">
-    <img src="assets/images/components/logo.svg" alt="Logo ALLSPORTS">
-  </button>
+  <div *ngIf="isRegistered; else notRegistered">
+    <button class="header-logo" (click)="landing()">
+      <img src="assets/images/components/logo.svg" alt="Logo ALLSPORTS">
+    </button>
 
-  <nav>
-    <ul>
-      <li>
-        <button (click)="landing()">Inicio</button>
-      </li>
-      <li class="dropdown">
-        <button>Deportes</button>
-        <div class="dropdown-content">
-          <div>
-            <button>Fútbol</button>
-            <div class="dropdown2">
-              <div class="dropdown-content2">
-                <button>La Liga EASports</button>
-                <button (click)="premier()">Premier League</button>
+    <nav>
+      <ul>
+        <li>
+          <button (click)="landing()">Inicio</button>
+        </li>
+        <li class="dropdown">
+          <button>Deportes</button>
+          <div class="dropdown-content">
+            <div>
+              <button>Fútbol</button>
+              <div class="dropdown2">
+                <div class="dropdown-content2">
+                  <button>La Liga EASports</button>
+                  <button (click)="premier()">Premier League</button>
+                </div>
+              </div>
+            </div>
+            <div>
+              <button>Baloncesto</button>
+              <div class="dropdown2">
+                <div class="dropdown-content2">
+                  <button>NBA</button>
+                </div>
               </div>
             </div>
           </div>
-          <div>
-            <button>Baloncesto</button>
+        </li>
+        <li class="dropdown">
+          <button>Deportes Electrónicos</button>
+          <div class="dropdown-content">
+            <button>LoL</button>
             <div class="dropdown2">
               <div class="dropdown-content2">
-                <button>NBA</button>
+                <button>LEC</button>
               </div>
             </div>
           </div>
-        </div>
-      </li>
-      <li class="dropdown">
-        <button>Deportes Electrónicos</button>
-        <div class="dropdown-content">
-          <button>LoL</button>
-          <div class="dropdown2">
-            <div class="dropdown-content2">
-              <button>LEC</button>
-            </div>
-          </div>
-        </div>
-      </li>
-    </ul>
-  </nav>
+        </li>
+      </ul>
+    </nav>
 
-  <div class="sesion-buttons">
-    <button class="register-button" (click)="register()">Regístrate ahora</button>
-    <button class="sign-up-button" (click)="login()">Iniciar Sesión</button>
+    <div class="sesion-buttons">
+      <button class="profile-button">
+        <img src="assets/images/components/notification.png" alt="bandeja-notificaciones">
+      </button>
+      <button class="profile-button" (click)="profile()"><img src="assets/images/components/profile.png" alt="Perfil">
+      </button>
+    </div>
   </div>
+  <ng-template #notRegistered>
+    <button class="header-logo" (click)="landing()">
+      <img src="assets/images/components/logo.svg" alt="Logo ALLSPORTS">
+    </button>
+
+    <nav>
+      <ul>
+        <li>
+          <button (click)="landing()">Inicio</button>
+        </li>
+        <li class="dropdown">
+          <button>Deportes</button>
+          <div class="dropdown-content">
+            <div>
+              <button>Fútbol</button>
+              <div class="dropdown2">
+                <div class="dropdown-content2">
+                  <button>La Liga EASports</button>
+                  <button (click)="premier()">Premier League</button>
+                </div>
+              </div>
+            </div>
+            <div>
+              <button>Baloncesto</button>
+              <div class="dropdown2">
+                <div class="dropdown-content2">
+                  <button>NBA</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="dropdown">
+          <button>Deportes Electrónicos</button>
+          <div class="dropdown-content">
+            <button>LoL</button>
+            <div class="dropdown2">
+              <div class="dropdown-content2">
+                <button>LEC</button>
+              </div>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="sesion-buttons">
+      <button class="register-button" (click)="register()">Regístrate ahora</button>
+      <button class="sign-up-button" (click)="login()">Iniciar Sesión</button>
+    </div>  </ng-template>
 </header>
