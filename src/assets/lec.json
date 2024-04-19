@@ -2,7 +2,6 @@
   "name": "LEC",
   "logo": "/images/leagues/logo/lec.png",
   "art": "/images/leagues/arts/lec.png",
-  "standings": "/images/leagues/standings/standingsLEC.png",
   "teams": [
     {
       "name": "Fnatic",
