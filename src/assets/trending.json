@@ -2,61 +2,61 @@
   "leagues": [
     {
       "name": "La Liga EA Sports",
-      "logo": "/images/leagues/logo/laliga.png",
-      "art": "/images/leagues/arts/laliga.png"
+      "logo": "assets/images/leagues/logo/laliga.png",
+      "art": "assets/images/leagues/arts/laliga.png"
     },
     {
       "name": "NBA",
-      "logo": "/images/leagues/logo/nba.png",
-      "art": "/images/leagues/arts/nba.png"
+      "logo": "assets/images/leagues/logo/nba.png",
+      "art": "assets/images/leagues/arts/nba.png"
     },
     {
       "name": "Premier League",
-      "logo": "/images/leagues/logo/premier-league.png",
-      "art": "/images/leagues/arts/premier-league.png"
+      "logo": "assets/images/leagues/logo/premier-league.png",
+      "art": "assets/images/leagues/arts/premier-league.png"
     },
     {
       "name": "LEC",
-      "logo": "/images/leagues/logo/lec.png",
-      "art": "/images/leagues/arts/lec.png"
+      "logo": "assets/images/leagues/logo/lec.png",
+      "art": "assets/images/leagues/arts/lec.png"
     }
   ],
   "teams": [
     {
       "name": "Real Madrid",
-      "logo": "/images/teams/laliga/madrid.png"
+      "logo": "assets/images/teams/laliga/madrid.png"
     },
     {
       "name": "FC Barcelona",
-      "logo": "/images/teams/laliga/barcelona.png"
+      "logo": "assets/images/teams/laliga/barcelona.png"
     },
     {
       "name": "Fnatic",
-      "logo": "/images/teams/lec/fnatic.png"
+      "logo": "assets/images/teams/lec/fnatic.png"
     },
     {
       "name": "G2 Esports",
-      "logo": "/images/teams/lec/g2.png"
+      "logo": "assets/images/teams/lec/g2.png"
     },
     {
       "name": "Manchester United",
-      "logo": "/images/teams/premier/manchester-united.png"
+      "logo": "assets/images/teams/premier/manchester-united.png"
     },
     {
       "name": "Liverpool",
-      "logo": "/images/teams/premier/liverpool.png"
+      "logo": "assets/images/teams/premier/liverpool.png"
     },
     {
       "name": "Golden State Warriors",
-      "logo": "/images/teams/nba/warriors.png"
+      "logo": "assets/images/teams/nba/warriors.png"
     },
     {
       "name": "Miami Heat",
-      "logo": "/images/teams/nba/heat.png"
+      "logo": "assets/images/teams/nba/heat.png"
     },
     {
       "name": "Milwaukee Bucks",
-      "logo": "/images/teams/nba/bucks.png"
+      "logo": "assets/images/teams/nba/bucks.png"
     }
   ]
 }
