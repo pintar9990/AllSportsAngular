@@ -1,0 +1,16 @@
+.team-logo-display-button {
+  background: none;
+  border: none;
+}
+
+.team-logo-display-image {
+  width: var(--logo-team-width);
+  align-self: center;
+  object-fit: cover;
+}
+
+.team-logo-display-image:hover {
+  transform: scale(1.05);
+  transition: 0.2s ease-in-out;
+  cursor: pointer;
+}

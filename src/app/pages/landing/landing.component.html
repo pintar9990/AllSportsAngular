@@ -1,1 +1,19 @@
-<p>landing works!</p>
+<div class="landing">
+  <section>
+    <h1 class="title">Explora AllSports</h1>
+    <div *ngIf="leagues" >
+      <div *ngFor="let league of leagues" class="home-sports">
+        <app-league-art-display [image_src]=league.art [image_alt]=league.name></app-league-art-display>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h1 class="subtitle">Equipos Populares</h1>
+    <div *ngIf="teams">
+      <div *ngFor="let team of teams" class="home-teams">
+        <app-team-logo-display [image_src]=team.logo [image_alt]=team.name></app-team-logo-display>
+      </div>
+    </div>
+  </section>
+</div>

@@ -8,6 +8,9 @@
   --white-color: #fff;
   --black-color: #000;
   --gray-color: #00000080;
+
+  --league-art-width: 350px;
+  --logo-team-width: 150px;
 }
 
 body {
