@@ -1,13 +1,13 @@
 :root {
   --bg-color: #474e52;
-  --main-color: #0f0;
+  --main-color: #00ff0080;
+
+
+  --button1-selected-color: #0f0;
+  --button2-selected-color: #000000F0;
   --white-color: #fff;
   --black-color: #000;
   --gray-color: #00000080;
-  --gray2-color: #000000F0;
-  --forest-green-color: #00ff0080;
-  --buttons-bg-color: #928C99;
-  --header-color: #24282B;
 }
 
 body {
