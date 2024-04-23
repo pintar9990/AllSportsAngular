@@ -142,7 +142,7 @@ nav ul li button svg {
 
 .dropdown-content2 {
   position: relative;
-  background-color: var(--gray2-color);
+  background-color: var(--gray-color);
   min-width: 160px;
   z-index: 1;
   border-radius: 5px;
