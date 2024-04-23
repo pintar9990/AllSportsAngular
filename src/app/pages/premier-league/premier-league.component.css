@@ -23,7 +23,10 @@
   border-collapse: collapse;
   float: left; /* Esto permite que otros elementos floten a la derecha */
   border: 1px solid #ddd; /* Añade un borde a la tabla */
+  overflow-y: auto; /* Hace que la tabla sea desplazable verticalmente si excede la altura máxima */
+  margin-bottom: 20px;
 }
+
 
 .team-cell {
   display: flex;
@@ -31,8 +34,6 @@
   align-items: center; /* Esto centra verticalmente el contenido de la celda */
   padding: 8px;
   border: 1px solid #ddd; /* Añade un borde a cada celda */
-  color: white; /* Cambia el color del texto a blanco */
-  background-color: #000; /* Fondo negro para las celdas */
 }
 
 .team-info {
