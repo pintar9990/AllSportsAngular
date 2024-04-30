@@ -3,17 +3,15 @@
   <img src="{{ league.logo }}" alt="{{ league.name }}" class="league-logo">
 </div>
 
-<div *ngIf="teams">
-  <table class="team-table">
-    <tr *ngFor="let team of teams">
-      <td class="team-name">
-        {{ team.position }} - {{ team.name }}
-      </td>
-      <td class="team-logo-cell">
-        <img src="{{ team.logo }}" alt="{{ team.name }}" class="team-logo">
-      </td>
-    </tr>
-  </table>
+<div *ngIf="teams" class="team-list-container">
+  <div class="team-row" *ngFor="let team of teams">
+    <div class="team-name">
+      {{ team.position }} - {{ team.name }}
+    </div>
+    <div class="team-logo-container">
+      <img src="{{ team.logo }}" alt="{{ team.name }}" class="team-logo">
+    </div>
+  </div>
 </div>
 
 

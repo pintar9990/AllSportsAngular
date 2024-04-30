@@ -1,16 +1,61 @@
+/* Estilos generales */
+.team-name, .team-info, .league-title {
+  color: white;
+}
+
+/* Contenedor de logos de la liga */
+.league-logo-container {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.league-title {
+  font-size: 3em;
+  margin-bottom: 10px;
+}
+
+.league-logo {
+  width: 350px;
+  height: auto;
+}
+
+/* Lista de equipos */
+.team-list-container {
+  display: flex;
+  flex-direction: column;
+  max-height: 500px;
+  overflow-y: auto;
+  margin-bottom: 30px;
+}
+
+.team-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+  padding: 8px;
+}
+
+/* Logo del equipo */
+.team-logo-container {
+  margin-left: 10px;
+}
+
+.team-logo {
+  width: 50px;
+  height: auto;
+  flex-shrink: 0;
+}
+
+/* Botones de equipos */
 .teams {
   display: inline-block;
+  margin-top: 30px;
 }
 
 .teams > button {
   background: none;
   border: none;
-}
-
-.teams > button > img:hover {
-  transform: scale(1.1);
-  transition: transform 0.2s ease-in-out;
-  cursor: pointer;
 }
 
 .teams button > img {
@@ -19,55 +64,8 @@
   aspect-ratio: 16/9;
 }
 
-.team-table {
-  border-collapse: collapse;
-  float: left; /* Esto permite que otros elementos floten a la derecha */
-  border: 1px solid #ddd; /* Añade un borde a la tabla */
-  overflow-y: auto; /* Hace que la tabla sea desplazable verticalmente si excede la altura máxima */
-  margin-bottom: 20px;
+.teams > button > img:hover {
+  transform: scale(1.1);
+  transition: transform 0.2s ease-in-out;
+  cursor: pointer;
 }
-
-
-.team-cell {
-  display: flex;
-  justify-content: space-between; /* Esto alinea el texto a la izquierda y el logo a la derecha */
-  align-items: center; /* Esto centra verticalmente el contenido de la celda */
-  padding: 8px;
-  border: 1px solid #ddd; /* Añade un borde a cada celda */
-}
-
-.team-info {
-  flex-grow: 1; /* Esto permite que el contenedor del texto ocupe todo el espacio disponible */
-}
-
-.team-logo {
-  flex-shrink: 0; /* Esto evita que el logo se reduzca */
-  width: 50px;
-  height: auto;
-  margin-left: 10px; /* Ajusta este valor según sea necesario */
-}
-
-.team-table tr {
-  border-bottom: 1px solid #ddd; /* Añade un borde en la parte inferior de cada fila */
-}
-
-.team-name, .team-info { /* Asegúrate de que esta clase se aplique donde corresponde */
-  color: white; /* Cambia el color del texto a blanco */
-}
-
-.league-logo-container {
-  text-align: center; /* Centra el contenido del div */
-  margin: 20px 0; /* Añade un margen superior e inferior */
-}
-
-.league-title {
-  color: white; /* Establece el color del texto a blanco */
-  font-size: 3em; /* Ajusta el tamaño del texto */
-  margin-bottom: 10px; /* Añade un espacio entre el título y el logo */
-}
-
-.league-logo {
-  width: 350px; /* Ajusta el tamaño del logo */
-  height: auto; /* Mantiene la proporción del logo */
-}
-
