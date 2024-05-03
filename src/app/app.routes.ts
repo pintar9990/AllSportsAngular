@@ -6,6 +6,8 @@ import {PremierLeagueComponent} from "./pages/premier-league/premier-league.comp
 import {ProfileComponent} from "./pages/profile/profile.component";
 import {EditProfileComponent} from "./pages/edit-profile/edit-profile.component";
 import {ClubComponent} from "./pages/club/club.component";
+import {LaLigaComponent} from "./pages/la-liga/la-liga.component";
+import {NbaComponent} from "./pages/nba/nba.component";
 
 export const routes: Routes = [
   { path: '', redirectTo: '/landing', pathMatch: 'full' },
@@ -16,4 +18,6 @@ export const routes: Routes = [
   { path: 'profile', component: ProfileComponent},
   { path: 'edit', component: EditProfileComponent},
   { path: 'club', component: ClubComponent},
+  { path: 'laliga', component: LaLigaComponent},
+  { path: 'nba', component: NbaComponent},
 ];

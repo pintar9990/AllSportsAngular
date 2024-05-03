@@ -1,7 +1,7 @@
 {
   "name": "NBA",
-  "logo": "/images/leagues/logo/nba.png",
-  "art": "/images/leagues/arts/nba.png",
+  "logo": "assets/images/leagues/logo/nba.png",
+  "art": "assets/images/leagues/arts/nba.png",
   "westernConference": [
     {
       "name": "Oklahoma City Thunder",

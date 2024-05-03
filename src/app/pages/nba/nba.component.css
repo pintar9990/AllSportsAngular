@@ -1,0 +1,71 @@
+/* Estilos generales */
+.team-name, .team-info, .league-title {
+  color: white;
+}
+
+/* Contenedor de logos de la liga */
+.league-logo-container {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.league-title {
+  font-size: 3em;
+  margin-bottom: 10px;
+}
+
+.league-logo {
+  width: 350px;
+  height: auto;
+}
+
+/* Lista de equipos */
+.team-list-container {
+  display: flex;
+  flex-direction: column;
+  max-height: 500px;
+  overflow-y: auto;
+  margin-bottom: 30px;
+}
+
+.team-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+  padding: 8px;
+}
+
+/* Logo del equipo */
+.team-logo-container {
+  margin-left: 10px;
+}
+
+.team-logo {
+  width: 50px;
+  height: auto;
+  flex-shrink: 0;
+}
+
+/* Botones de equipos */
+.teams {
+  display: inline-block;
+  margin-top: 30px;
+}
+
+.teams > button {
+  background: none;
+  border: none;
+}
+
+.teams button > img {
+  width: 10em;
+  height: 10em;
+  aspect-ratio: 16/9;
+}
+
+.teams > button > img:hover {
+  transform: scale(1.1);
+  transition: transform 0.2s ease-in-out;
+  cursor: pointer;
+}

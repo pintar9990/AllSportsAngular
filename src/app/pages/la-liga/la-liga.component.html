@@ -1,0 +1,24 @@
+<div *ngIf="league" class="league-logo-container">
+  <h1 class="league-title">La Liga</h1>
+  <img src="{{ league.logo }}" alt="{{ league.name }}" class="league-logo">
+</div>
+
+<div *ngIf="teams" class="team-list-container">
+  <div class="team-row" *ngFor="let team of teams">
+    <div class="team-name">
+      {{ team.position }} - {{ team.name }}
+    </div>
+    <div class="team-logo-container">
+      <img src="{{ team.logo }}" alt="{{ team.name }}" class="team-logo">
+    </div>
+  </div>
+</div>
+
+
+<div *ngIf="teams">
+  <div class="teams" *ngFor="let team of teams">
+    <button>
+      <img src="{{ team.logo }}" alt=" {{team.name}}">
+    </button>
+  </div>
+</div>

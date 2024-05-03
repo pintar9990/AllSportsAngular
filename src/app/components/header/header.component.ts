@@ -30,6 +30,13 @@ export class HeaderComponent {
   premier() {
     this.router.navigate(['/premier']);
   }
+  nba() {
+    this.router.navigate(['/nba']);
+  }
+
+  laliga() {
+    this.router.navigate(['/laliga']);
+  }
 
   landing () {
     this.router.navigate(['/landing']);

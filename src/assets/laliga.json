@@ -1,11 +1,11 @@
 {
   "name": "La Liga EA Sports",
-  "logo": "/images/leagues/logo/laliga.png",
-  "art": "/images/leagues/arts/laliga.png",
+  "logo": "assets/images/leagues/logo/laliga.png",
+  "art": "assets/images/leagues/arts/laliga.png",
   "teams": [
     {
       "name": "FC Barcelona",
-      "logo": "/images/teams/laliga/barcelona.png",
+      "logo": "assets/images/teams/laliga/barcelona.png",
       "goalkeepers": [
         {
           "name": "Ter Stegen",
@@ -73,7 +73,7 @@
     },
     {
       "name": "Real Madrid",
-      "logo": "/images/teams/laliga/madrid.png",
+      "logo": "assets/images/teams/laliga/madrid.png",
       "goalkeepers": [
         {
           "name": "Courtois",
@@ -141,7 +141,7 @@
     },
     {
       "name": "Atlético Madrid",
-      "logo": "/images/teams/laliga/atletico.png",
+      "logo": "assets/images/teams/laliga/atletico.png",
       "goalkeepers": [
         {
           "name": "Oblak",
@@ -209,7 +209,7 @@
     },
     {
       "name": "Girona",
-      "logo": "/images/teams/laliga/girona.png",
+      "logo": "assets/images/teams/laliga/girona.png",
       "goalkeepers": [
         {
           "name": "Gazzaniga",
@@ -277,7 +277,7 @@
     },
     {
       "name": "Athletic Club",
-      "logo": "/images/teams/laliga/athletic.png",
+      "logo": "assets/images/teams/laliga/athletic.png",
       "goalkeepers": [
         {
           "name": "U.Simón",
@@ -345,7 +345,7 @@
     },
     {
       "name": "Real Sociedad",
-      "logo": "/images/teams/laliga/real-sociedad.png",
+      "logo": "assets/images/teams/laliga/real-sociedad.png",
       "goalkeepers": [
         {
           "name": "A.Remiro",
@@ -413,7 +413,7 @@
     },
     {
       "name": "Real Betis Balonpie",
-      "logo": "/images/teams/laliga/betis.png",
+      "logo": "assets/images/teams/laliga/betis.png",
       "goalkeepers": [
         {
           "name": "R.Silva",
@@ -481,7 +481,7 @@
     },
     {
       "name": "Sevilla FC",
-      "logo": "/images/teams/laliga/sevilla.png",
+      "logo": "assets/images/teams/laliga/sevilla.png",
       "goalkeepers": [
         {
           "name": "M.Dimitrovic",
@@ -549,7 +549,7 @@
     },
     {
       "name": "Valencia CF",
-      "logo": "/images/teams/laliga/valencia.png",
+      "logo": "assets/images/teams/laliga/valencia.png",
       "goalkeepers": [
         {
           "name": "Mamardashvili",
@@ -617,7 +617,7 @@
     },
     {
       "name": "Villarreal FC",
-      "logo": "/images/teams/laliga/villareal.png",
+      "logo": "assets/images/teams/laliga/villareal.png",
       "goalkeepers": [
         {
           "name": "F.Jörgensen",
@@ -685,7 +685,7 @@
     },
     {
       "name": "Getafe",
-      "logo": "/images/teams/laliga/getafe.png",
+      "logo": "assets/images/teams/laliga/getafe.png",
       "goalkeepers": [
         {
           "name": "D.Soria",
@@ -753,7 +753,7 @@
     },
     {
       "name": "UD Las Palmas",
-      "logo": "/images/teams/laliga/las-palmas.png",
+      "logo": "assets/images/teams/laliga/las-palmas.png",
       "goalkeepers": [
         {
           "name": "A.Valles",
@@ -821,7 +821,7 @@
     },
     {
       "name": "Osasuna",
-      "logo": "/images/teams/laliga/osasuna.png",
+      "logo": "assets/images/teams/laliga/osasuna.png",
       "goalkeepers": [
         {
           "name": "S.Herrera",
@@ -889,7 +889,7 @@
     },
     {
       "name": "Deportivo Alavés",
-      "logo": "/images/teams/laliga/alaves.png",
+      "logo": "assets/images/teams/laliga/alaves.png",
       "goalkeepers": [
         {
           "name": "A.Sivera",
@@ -957,7 +957,7 @@
     },
     {
       "name": "Mallorca",
-      "logo": "/images/teams/laliga/mallorca.png",
+      "logo": "assets/images/teams/laliga/mallorca.png",
       "goalkeepers": [
         {
           "name": "P.Rajkovic",
@@ -1025,7 +1025,7 @@
     },
     {
       "name": "Rayo Vallecano",
-      "logo": "/images/teams/laliga/rayo.png",
+      "logo": "assets/images/teams/laliga/rayo.png",
       "goalkeepers": [
         {
           "name": "S.Dimitrievski",
@@ -1093,7 +1093,7 @@
     },
     {
       "name": "RC Celta",
-      "logo": "/images/teams/laliga/celta.png",
+      "logo": "assets/images/teams/laliga/celta.png",
       "goalkeepers": [
         {
           "name": "V.Guaita",
@@ -1161,7 +1161,7 @@
     },
     {
       "name": "Cadiz FC",
-      "logo": "/images/teams/laliga/cadiz.png",
+      "logo": "assets/images/teams/laliga/cadiz.png",
       "goalkeepers": [
         {
           "name": "C.Ledesma",
@@ -1229,7 +1229,7 @@
     },
     {
       "name": "Granada CF",
-      "logo": "/images/teams/laliga/granada.png",
+      "logo": "assets/images/teams/laliga/granada.png",
       "goalkeepers": [
         {
           "name": "A.Batalla",
@@ -1297,7 +1297,7 @@
     },
     {
       "name": "Almeria",
-      "logo": "/images/teams/laliga/almeria.png",
+      "logo": "assets/images/teams/laliga/almeria.png",
       "goalkeepers": [
         {
           "name": "L.Maximiano",
